@@ -1,7 +1,7 @@
 import Color from 'color';
 
 // const alpha = (color, val) => Color(color).alpha(val).rgb().string();
-const lighen = (color, val) => Color(color).lighten(val).rgb().string();
+const lighten = (color, val) => Color(color).lighten(val).rgb().string();
 const darken = (color, val) => Color(color).darken(val).rgb().string();
 
 /** @type {import('tailwindcss').Config} */
@@ -36,7 +36,7 @@ export default {
 				},
 				'sj-leaf': {
 					hover: darken('#00AB3B', 0.1),
-					'hover-dark': lighen('#009433', 0.1),
+					'hover-dark': lighten('#009433', 0.1),
 					dark: '#009433',
 					DEFAULT: '#00AB3B'
 				},
