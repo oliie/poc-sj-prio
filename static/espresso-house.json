@@ -1,0 +1,28 @@
+{
+	"title": "Espresso House poängshop",
+	"description": "För Espresso House betyder kaffe väldigt mycket. Men det är inte allt – deras hjärta klappar även för andra varma och kalla drycker, bakverk, mackor och sallader.",
+	"heroImageUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/LATTE_CORTADO_LANDSCAPE_3840X1260.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+	"offers": [
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/espresso-house-latte-2023.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Valfri dryck",
+			"body": "Du får en värdekod som gäller för en varm eller kall handgjord dryck hos Espresso house. Värdekoden mejlas direkt efter köp och löses in i deras app.",
+			"points": 1400,
+			"isLimited": true
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/poangshop-bryggkaffe-espressohouse.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Liten bryggkaffe",
+			"body": "Du får en värdekod som gäller för en liten bryggkaffe hos Espresso House. Värdekoden mejlas direkt efter köp och löses in i deras app.",
+			"points": 800,
+			"isLimited": false
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/espresso-house-bullar-2023.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Valfritt bakverk",
+			"body": "Du får en värdekod som gäller för ett valfritt bakverk hos Espresso house. Värdekoden mejlas direkt efter köp och löses in i deras app.",
+			"points": 2100,
+			"isLimited": false
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"title": "Mind",
+	"description": "Genom att skänka dina SJ Prio-poäng till Mind gör du det möjligt för oss att ta emot fler samtal i våra stödlinjer och fortsätta vårt arbete med psykisk ohälsa. Tillsammans ger vi människor kraft att leva!",
+	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/mind-kvinnasomstrackerupphanderna-2020.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+	"offers": [
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/mind-1-2023.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Skänk 50 poäng",
+			"body": "Mind är en ideell organisation som arbetar med att främja psykiskt välbefinnande och förbygga självmord i Sverige. Mind erbjuder stöd till människor i kris, sprider kunskap och bildar opinion.",
+			"points": 50,
+			"isLimited": true
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/mind-2-2023.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Skänk 250 poäng",
+			"body": "Mind erbjuder medmänskligt stöd genom Självmordslinjen, Livslinjen, Äldrelinjen, Föräldralinjen och Mind Forum, som är en trygg plats på nätet.",
+			"points": 250,
+			"isLimited": true
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/mind-3-2023.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Skänk 1000 poäng",
+			"body": "1 500 personer tar sitt liv varje år. Tre av fyra personer kommer att drabbas av psykisk ohälsa under sin livstid, antingen själva eller som närstående. Mind arbetar både förebyggande och ger stöd till drabbade.",
+			"points": 1000,
+			"isLimited": true
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/mind-4-2023.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Skänk 2500 poäng",
+			"body": "Dina SJ Prio-poäng hjälper Mind att erbjuda medmänskligt stöd till fler, så att ingen ensam ska behöva möta ångest, depression och tankar på att ta sitt liv. ",
+			"points": 2500,
+			"isLimited": false
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"title": "No18",
+	"description": "På No18 Stockholm Central hittar du en unik mötesplats och kontorshotell med konferensmöjligheter. Använd dina SJ Prio-poäng till inträde under en timme.",
+	"heroImageUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/no18-3840x1260.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+	"offers": [
+		{
+			"imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/no18-grand-central_1024x576.png/jcr:content/renditions/cqdam.web.880.496.png",
+			"title": "Tillgång till No18",
+			"body": "Tillgång till No18 Stockholm Central under en timme.  Du kan beställa fler timmar om du vill. Läs mer om lokalen på no18.com",
+			"points": 3300,
+			"isLimited": false
+		}
+	]
+}

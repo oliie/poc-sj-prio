@@ -1,0 +1,35 @@
+{
+	"title": "Nextory",
+	"description": "Nextory har hundratusentals ljud- och e-böcker att välja mellan. Du kan läsa och lyssna hur mycket du vill, var och när som helst. Oavsett om du är på jakt efter godnattsagor, vardagsspänning eller matlagningsinspiration kan du alltid hitta böckerna du gillar.",
+	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/nextory/nextory-kvinnamedhorlurar-2021-v4.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+	"offers": [
+		{
+			"imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/1024x576-SJ-Nextory.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Silverabonnemang 1 mån",
+			"body": "Du får en värdekod som gäller för inlösning av Nextorys silverabonnemang. Koden är personlig och gäller för 1 månad hos Nextory. Värdekoden mejlas direkt efter köpet och löses in på nextory.se (kräver Nextory-konto).",
+			"points": 3500,
+			"isLimited": false
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/1024x576-SJ-Nextory.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Guldabonnemang 1 mån",
+			"body": "Du får en värdekod som gäller för inlösning av Nextorys guldabonnemang. Koden är personlig och gäller för 1 månad hos Nextory. Värdekoden mejlas direkt efter köpet och löses in på nextory.se (kräver Nextory-konto).",
+			"points": 4000,
+			"isLimited": true
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/1024x576-SJ-Nextory.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Silverabonnemang Norge 1 mån",
+			"body": "Du får en värdekod som gäller för inlösning av Nextorys silverabonnemang. Koden är personlig och gäller för 1 månad hos Nextory. Värdekoden mejlas direkt efter köpet och löses in på nextory.no (kräver Nextory-konto). Erbjudandet gäller för SJ Prio-medlemmar i Norge.",
+			"points": 3500,
+			"isLimited": false
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/1024x576-SJ-Nextory.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Guldabonnemang Norge 1 mån",
+			"body": "Du får en värdekod som gäller för inlösning av Nextorys guldabonnemang. Koden är personlig och gäller för 1 månad hos Nextory. Värdekoden mejlas direkt efter köpet och löses in på nextory.no (kräver Nextory-konto). Erbjudandet gäller för SJ Prio-medlemmar i Norge.",
+			"points": 4000,
+			"isLimited": false
+		}
+	]
+}

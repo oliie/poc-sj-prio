@@ -1,0 +1,14 @@
+{
+	"title": "Readly",
+	"description": "Med över 6 000 titlar så har Readly något för alla. Njut av obegränsad tillgång till alla dina favorittidningar, både gamla och nya nummer.",
+	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/readly-2021-v1.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+	"offers": [
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/readly-2021-v2.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Abonnemang 1 mån",
+			"body": "Du får en värdekod som gäller för inlösning av månadsabonnemang hos Readly. Koden kan aktiveras på både nya och befintliga Readly-konton men kan inte kombineras med befintliga abonnemang som tecknats via återförsäljare. Värdekoden mejlas direkt efter köpet och löses in på readly.se",
+			"points": 3200,
+			"isLimited": false
+		}
+	]
+}
