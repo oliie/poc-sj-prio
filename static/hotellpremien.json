@@ -1,0 +1,14 @@
+{
+	"title": "Hotellpremien",
+	"description": "Hotellpremien erbjuder ett stort urval av prisvärda hotellövernattningar i Skandinavien.",
+	"heroImageUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/hotellpremien-poangshoppen.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
+	"offers": [
+		{
+			"imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/hotellpremien-500.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Värdebevis 500 kr",
+			"body": "Du får en värdekod som gäller för delbetalning i samband med köp och full betalning av hotellvistelse på hotellpremien.se. Värdekoden kan endast användas för bokningar om 2-5 nätter och det går inte att använda flera koder vid ett och samma köp. Du måste vara medlem i Coop för att kunna boka på hotellpremien.se",
+			"points": 14900,
+			"isLimited": false
+		}
+	]
+}

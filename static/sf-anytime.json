@@ -1,0 +1,21 @@
+{
+	"title": "SF Anytime",
+	"description": "Ladda ned eller streama film och titta på den var du vill! Lämna vardagen och låt dig färdas till andra upplevelser och äventyr för en stund. Perfekt att ladda ned på paddan, mobilen eller datorn inför resan. Hos SF Anytime kan du se de senaste filmerna utan abonnemang, du betalar bara för det du vill titta på.",
+	"heroImageUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/sf-anytime1.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
+	"offers": [
+		{
+			"imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/sf-anytime-hyrfilm.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Hyrfilm",
+			"body": "Värdekod som gäller för hyra av en valfri film (värde upp till 59 kr) i SF Anytimes utbud. Värdekoden växlas in på sfanytime.com och ger inget restvärde om du hyr en film för mindre än 59 kr. Koden gäller inte för bioaktuella hyrfilmer. Efter att du har hyrt en film kan du se den i 48 timmar.",
+			"points": 1600,
+			"isLimited": false
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/sf-anytime-3for2.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Hyrfilm – 3 för 2",
+			"body": "Passa på att se extra mycket film med en värdekod som gäller för 3 filmer (värde upp till 59 kr per film) men betala endast för 2. Värdekoden växlas in på sfanytime.com och ger inget restvärde om du hyr en film för mindre än 59 kr. Koden gäller inte för bioaktuella hyrfilmer. Efter att du har hyrt en film kan du se den i 48 timmar.",
+			"points": 3100,
+			"isLimited": false
+		}
+	]
+}
