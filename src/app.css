@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: 'sjsans';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/sjsans_regular-webfont.woff2'); /* IE9 Compat Modes */
+	src: local(''), url('/fonts/sjsans_regular-webfont.woff2?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */ url('/fonts/sjsans_regular-webfont.woff2') format('woff2'),
+		/* Super Modern Browsers */ url('/fonts/sjsans_regular-webfont.woff2') format('woff'),
+		/* Modern Browsers */ url('/fonts/sjsans_regular-webfont.woff2') format('truetype'),
+		/* Safari, Android, iOS */ url('/fonts/sjsans_regular-webfont.woff2#sjsans') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'sjsans_medium';
+	font-style: noram;
+	font-weight: 500;
+	src: url('/fonts/sjsans_medium-webfont.woff2'); /* IE9 Compat Modes */
+	src: local(''), url('/fonts/sjsans_medium-webfont.woff2?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */ url('/fonts/sjsans_medium-webfont.woff2') format('woff2'),
+		/* Super Modern Browsers */ url('/fonts/sjsans_medium-webfont.woff2') format('woff'),
+		/* Modern Browsers */ url('/fonts/sjsans_medium-webfont.woff2') format('truetype'),
+		/* Safari, Android, iOS */ url('/fonts/sjsans_medium-webfont.woff2#sjsans') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'sjsans_bold';
+	font-style: bold;
+	font-weight: 700;
+	src: url('/fonts/sjsans_bold-webfont.woff2'); /* IE9 Compat Modes */
+	src: local(''), url('/fonts/sjsans_bold-webfont.woff2?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */ url('/fonts/sjsans_bold-webfont.woff2') format('woff2'),
+		/* Super Modern Browsers */ url('/fonts/sjsans_bold-webfont.woff2') format('woff'),
+		/* Modern Browsers */ url('/fonts/sjsans_bold-webfont.woff2') format('truetype'),
+		/* Safari, Android, iOS */ url('/fonts/sjsans_bold-webfont.woff2#sjsans') format('svg'); /* Legacy iOS */
+}

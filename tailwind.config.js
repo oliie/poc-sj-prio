@@ -9,6 +9,11 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ['sjsans'],
+				bold: ['sjsans_bold'],
+				medium: ['sjsans_medium']
+			},
 			colors: {
 				'sj-bg-primary': {
 					dark: '#000',
