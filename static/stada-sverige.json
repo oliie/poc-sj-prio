@@ -1,35 +1,35 @@
 {
-	"title": "Städa Sverige",
-	"description": "Idrottens miljöorganisation Städa Sverige jobbar för ett skräpfritt Sverige, städat av inspirerade idrottsungdomar som får en ersättning till sin förenings eller lags dröm. Din gåva bidrar till deras nästa resa till cupen, det efterlängtade lägret och att alla ska ha råd att åka med.",
-	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-pojkeplockarskrap-2021.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
-	"offers": [
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-flickamedsopsackar-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 50 poäng",
-			"body": "Ett träningsläger man samlat pengar till i flera år börjar på ett SJ-tåg. Städuppdrag i föreningens närmiljö har gett förutsättningar för det efterlängtade lägret, ett läger för att stärka gemenskapen, träna tillsammans och komma varandra närmare.",
-			"points": 50,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-pojkarmeddiskoiskog-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 250 poäng",
-			"body": "En tävling börjar på ett SJ-tåg. Idrottsungdomarna har redan städat Sverige tillsammans. Nu väntar den efterlängtade tävlingen där man tillsammans får mäta sig med andra, möta utmaningar och inspireras inför framtiden.",
-			"points": 250,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-ungdomarplockarskrapvidvattnet-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 1 000 poäng",
-			"body": "Resan till drömcupen börjar på ett SJ-tåg. Efter att ha genomfört ett städuppdrag i naturen har de nu råd med cupen de drömt om i flera år. En cup där de möter nya vänner, nya lag och skapar minnen för livet.",
-			"points": 1000,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-manniskormedmassasopsackar-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 2 500 poäng",
-			"body": "Dina poäng bidrar till att städande idrottslag får ta tåget och uppleva sin dröm om att åka iväg på den efterlängtade cupen eller ett träningsläger någonstans i Sverige. Dagar fyllda av kämpaglöd, spänning, avgöranden och skratt väntar.",
-			"points": 2500,
-			"isLimited": false
-		}
-	]
+  "title": "Städa Sverige",
+  "description": "Idrottens miljöorganisation Städa Sverige jobbar för ett skräpfritt Sverige, städat av inspirerade idrottsungdomar som får en ersättning till sin förenings eller lags dröm. Din gåva bidrar till deras nästa resa till cupen, det efterlängtade lägret och att alla ska ha råd att åka med.",
+  "heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-pojkeplockarskrap-2021.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+  "offers": [
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-flickamedsopsackar-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 50 poäng",
+      "body": "Ett träningsläger man samlat pengar till i flera år börjar på ett SJ-tåg. Städuppdrag i föreningens närmiljö har gett förutsättningar för det efterlängtade lägret, ett läger för att stärka gemenskapen, träna tillsammans och komma varandra närmare.",
+      "points": 50,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-pojkarmeddiskoiskog-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 250 poäng",
+      "body": "En tävling börjar på ett SJ-tåg. Idrottsungdomarna har redan städat Sverige tillsammans. Nu väntar den efterlängtade tävlingen där man tillsammans får mäta sig med andra, möta utmaningar och inspireras inför framtiden.",
+      "points": 250,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-ungdomarplockarskrapvidvattnet-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 1 000 poäng",
+      "body": "Resan till drömcupen börjar på ett SJ-tåg. Efter att ha genomfört ett städuppdrag i naturen har de nu råd med cupen de drömt om i flera år. En cup där de möter nya vänner, nya lag och skapar minnen för livet.",
+      "points": 1000,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-manniskormedmassasopsackar-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 2 500 poäng",
+      "body": "Dina poäng bidrar till att städande idrottslag får ta tåget och uppleva sin dröm om att åka iväg på den efterlängtade cupen eller ett träningsläger någonstans i Sverige. Dagar fyllda av kämpaglöd, spänning, avgöranden och skratt väntar.",
+      "points": 2500,
+      "isLimited": false
+    }
+  ]
 }
