@@ -7,7 +7,7 @@
 </script>
 
 <div class="w-full rounded-none shadow-xl card card-compact bg-base-100">
-  <figure><img src={imgUrl} alt={title} /></figure>
+  <figure><img src={imgUrl} alt="" /></figure>
   <div class="card-body">
     <h2 class="card-title">{title}</h2>
     <p>{description}</p>
