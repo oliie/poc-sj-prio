@@ -13,7 +13,7 @@
 		<p>{description}</p>
 		<div class="card-actions justify-start">
 			<a
-				href="/{slug}"
+				href="poangshop/{slug}"
 				class="btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark rounded-none border-none normal-case"
 				>{buttonText}</a
 			>
