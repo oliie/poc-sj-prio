@@ -1,58 +1,58 @@
 <script lang="ts">
-	import type { ShopSection } from '$lib/custom-types';
-	import Hero from '$lib/components/ui/Hero.svelte';
-	import TotalPointsView from '$lib/components/ui/TotalPointsView.svelte';
-	import { language } from '$lib/utils/languageUtil';
-	import { t } from '$lib/services/i18n';
+  import type { ShopSection } from '$lib/custom-types';
+  import Hero from '$lib/components/ui/Hero.svelte';
+  import TotalPointsView from '$lib/components/ui/TotalPointsView.svelte';
+  import { language } from '$lib/utils/languageUtil';
+  import { t } from '$lib/services/i18n';
 
-	export let data: { shopList: ShopSection[] };
+  export let data: { shopList: ShopSection[] };
 
-	$: ({ shopList } = data);
+  $: ({ shopList } = data);
 
-	const heroData = {
-		title: 'First hotels',
-		introText:
-			'Dina SJ Prio-poäng kan växlas in mot värdecheckar som kan användas på alla First Hotels i Sverige.',
-		imageSrc: '/images/hero1.jpg',
-		imageAltText: 'Ett rapsfält under en blå sommarhimmel.'
-	};
+  const heroData = {
+    title: 'First hotels',
+    introText:
+      'Dina SJ Prio-poäng kan växlas in mot värdecheckar som kan användas på alla First Hotels i Sverige.',
+    imageSrc: '/images/hero1.jpg',
+    imageAltText: 'Ett rapsfält under en blå sommarhimmel.'
+  };
 </script>
 
 <Hero {...heroData}>
-	<TotalPointsView
-		lang={language.SV}
-		points={34000}
-		pointsTitle="Du har"
-		pointsLabel="poäng att handla för"
-	/>
+  <TotalPointsView
+    lang={language.SV}
+    points={34000}
+    pointsTitle="Du har"
+    pointsLabel="poäng att handla för"
+  />
 </Hero>
 
 <div class="container mx-auto">
-	<div class="grid grid-cols-3 my-12">
-		<div class="col-span-3 html-content md:col-span-2">
-			<h1 class="text-4xl font-bold">{t('start_page_title')}</h1>
-			<p class="mt-4">{@html t('start_page_description')}</p>
-		</div>
-	</div>
+  <div class="grid grid-cols-3 my-12">
+    <div class="col-span-3 html-content md:col-span-2">
+      <h1 class="text-4xl font-bold">{t('start_page_title')}</h1>
+      <p class="mt-4">{@html t('start_page_description')}</p>
+    </div>
+  </div>
 
-	{#each shopList as { header, shops }}
-		<div class="divider" />
+  {#each shopList as { header, shops }}
+    <div class="divider" />
 
-		<h2 class="mb-4 text-2xl font-bold text-center">{header}</h2>
+    <h2 class="mb-4 text-2xl font-bold text-center">{header}</h2>
 
-		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-			{#each shops as { description, imgUrl, slug, title }}
-				<!-- WIP placeholder for #3: https://github.com/users/oliie/projects/1/views/1?pane=issue&itemId=29368801 -->
-				<h3>{title}</h3>
-			{/each}
-		</div>
-	{/each}
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+      {#each shops as { description, imgUrl, slug, title }}
+        <!-- WIP placeholder for #3: https://github.com/users/oliie/projects/1/views/1?pane=issue&itemId=29368801 -->
+        <h3>{title}</h3>
+      {/each}
+    </div>
+  {/each}
 </div>
 
 <style lang="postcss">
-	.html-content {
-		& a {
-			@apply text-cyan-600 underline;
-		}
-	}
+  .html-content {
+    & a {
+      @apply text-cyan-600 underline;
+    }
+  }
 </style>

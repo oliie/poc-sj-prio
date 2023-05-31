@@ -1,14 +1,14 @@
 {
-	"title": "Filmstaden",
-	"description": "Gillar du också att gå på bio? Här kan du byta dina SJ Prio-poäng mot biobiljetter, så frossa själv eller ta med din vän! För att se vilka orter du kan använda värdekoden på samt övrig info, besök gärna filmstaden.se",
-	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/jul/filmstaden-december2020-v1.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
-	"offers": [
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/biobiljett_utandatum.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Biobiljett",
-			"body": "Gäller på valfri ordinarie föreställning hos Filmstaden, Svenska Bio och Cinemascenen. Värdekoden används när du bokar bion på filmstaden.se, i kassan eller i biljettautomaten.",
-			"points": 5000,
-			"isLimited": true
-		}
-	]
+  "title": "Filmstaden",
+  "description": "Gillar du också att gå på bio? Här kan du byta dina SJ Prio-poäng mot biobiljetter, så frossa själv eller ta med din vän! För att se vilka orter du kan använda värdekoden på samt övrig info, besök gärna filmstaden.se",
+  "heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/jul/filmstaden-december2020-v1.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
+  "offers": [
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/biobiljett_utandatum.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Biobiljett",
+      "body": "Gäller på valfri ordinarie föreställning hos Filmstaden, Svenska Bio och Cinemascenen. Värdekoden används när du bokar bion på filmstaden.se, i kassan eller i biljettautomaten.",
+      "points": 5000,
+      "isLimited": true
+    }
+  ]
 }

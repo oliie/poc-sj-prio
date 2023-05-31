@@ -1,21 +1,21 @@
 {
-	"title": "Scandic - använd dina poäng till en hotellupplevelse",
-	"description": "Växla in dina SJ Prio-poäng mot värdecheckar som kan användas till härliga hotellövernattningar, goda middagar och hotellfrukostar på alla Scandichotell i Sverige.",
-	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/hotell/Scandic-Park-room-3840x1260.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
-	"offers": [
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/hotell/scandic-middag-2022.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Värdecheck 200 kr",
-			"body": "Kan användas för boende, frukost eller middagar på Scandichotell i Sverige. Kan användas som betalning eller delbetalning. Välj Betala senare/Full flex när du bokar på scandichotels.se och använd värdecheck när du betalar rummet i samband med din vistelse.",
-			"points": 4900,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/hotell/scandic-sovande-kvinna-2022-v2.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Värdecheck 500 kr",
-			"body": "Kan användas för boende, frukost eller middagar på Scandichotell i Sverige. Kan användas som betalning eller delbetalning. Välj Betala senare/Full flex när du bokar på scandichotels.se och använd värdecheck när du betalar rummet i samband med din vistelse.",
-			"points": 12100,
-			"isLimited": false
-		}
-	]
+  "title": "Scandic - använd dina poäng till en hotellupplevelse",
+  "description": "Växla in dina SJ Prio-poäng mot värdecheckar som kan användas till härliga hotellövernattningar, goda middagar och hotellfrukostar på alla Scandichotell i Sverige.",
+  "heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/hotell/Scandic-Park-room-3840x1260.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
+  "offers": [
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/hotell/scandic-middag-2022.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Värdecheck 200 kr",
+      "body": "Kan användas för boende, frukost eller middagar på Scandichotell i Sverige. Kan användas som betalning eller delbetalning. Välj Betala senare/Full flex när du bokar på scandichotels.se och använd värdecheck när du betalar rummet i samband med din vistelse.",
+      "points": 4900,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/hotell/scandic-sovande-kvinna-2022-v2.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Värdecheck 500 kr",
+      "body": "Kan användas för boende, frukost eller middagar på Scandichotell i Sverige. Kan användas som betalning eller delbetalning. Välj Betala senare/Full flex när du bokar på scandichotels.se och använd värdecheck när du betalar rummet i samband med din vistelse.",
+      "points": 12100,
+      "isLimited": false
+    }
+  ]
 }
