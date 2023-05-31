@@ -1,0 +1,28 @@
+{
+	"title": "First hotels - använd dina poäng till en unik hotellupplevelse",
+	"description": "Dina SJ Prio-poäng kan växlas in mot värdecheckar som kan användas på alla First Hotels i Sverige.",
+	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/firsthotels-baddad-hotellsang-2023.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
+	"offers": [
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/firsthotels-kvinna-i-hotellsang-2023.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Värdecheck 200 kr",
+			"body": "Värdecheck för övernattning och frukost på First Hotels i Sverige. Kan användas som betalning eller delbetalning.",
+			"points": 4200,
+			"isLimited": false
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/firsthotels-par-i-hotellsang-2023.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Värdecheck 500 kr",
+			"body": "Värdecheck för övernattning och frukost på First Hotels i Sverige. Kan användas som betalning eller delbetalning.",
+			"points": 10400,
+			"isLimited": false
+		},
+		{
+			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/firsthotels-familj-i-hotellsang-2023.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+			"title": "Värdecheck 1000 kr",
+			"body": "Värdecheck för övernattning och frukost på First Hotels i Sverige. Kan användas som betalning eller delbetalning.",
+			"points": 20700,
+			"isLimited": false
+		}
+	]
+}
