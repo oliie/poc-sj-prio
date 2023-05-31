@@ -6,7 +6,8 @@
 </script>
 
 <div class="hero h-[61.8vmax] max-h-[min(70vh,1280px)] bg-sj-dark-sky">
-  {#if imageSrc}<div class="w-full h-full overflow-hidden">
+  {#if imageSrc}
+    <div class="w-full h-full overflow-hidden">
       <img
         class="object-cover object-center h-full w-full block"
         src={imageSrc}
