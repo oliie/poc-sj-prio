@@ -3,8 +3,8 @@
   import Hero from '$lib/components/ui/Hero.svelte';
   import TotalPointsView from '$lib/components/ui/TotalPointsView.svelte';
   import { language } from '$lib/utils/languageUtil';
-  import ShopCard from '$lib/components/ShopCard.svelte';
   import { t } from '$lib/services/i18n';
+  import ShopCard from '$lib/components/ShopCard.svelte';
 
   export let data: { shopList: ShopSection[] };
 
