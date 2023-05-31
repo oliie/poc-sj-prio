@@ -24,3 +24,10 @@ export type ShopSection = {
 	header: string;
 	shops: Shop[];
 };
+
+export type User = {
+	firstname: string;
+	lastname: string;
+	token: string;
+	points: number;
+};
