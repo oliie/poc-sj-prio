@@ -34,9 +34,8 @@
 		<h2 class="mb-4 text-2xl font-bold text-center">{header}</h2>
 
 		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-			{#each shops as { description, imgUrl, slug, title }}
-				<!-- WIP placeholder for #3: https://github.com/users/oliie/projects/1/views/1?pane=issue&itemId=29368801 -->
-				<ShopCard {title} {description} {imgUrl} {slug} buttonText="gå hit" />
+			{#each shops as { description, imgUrl, slug, title, buttonText }}
+				<ShopCard {title} {description} {imgUrl} {slug} {buttonText} />
 			{/each}
 		</div>
 	{/each}
