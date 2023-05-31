@@ -4,6 +4,7 @@
   import TotalPointsView from '$lib/components/ui/TotalPointsView.svelte';
   import { language } from '$lib/utils/languageUtil';
   import { t } from '$lib/services/i18n';
+  import ShopCard from '$lib/components/ShopCard.svelte';
 
   export let data: { shopList: ShopSection[] };
 
@@ -41,12 +42,17 @@
     <h2 class="mb-4 text-2xl font-bold text-center">{header}</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-      {#each shops as { description, imgUrl, slug, title }}
-        <!-- WIP placeholder for #3: https://github.com/users/oliie/projects/1/views/1?pane=issue&itemId=29368801 -->
-        <h3>{title}</h3>
-      {/each}
-    </div>
-  {/each}
+      {#each shopList as { header, shops }}
+		<div class="divider" />
+
+		<h2 class="mb-4 text-2xl font-bold text-center">{header}</h2>
+
+		<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+			{#each shops as { description, imgUrl, slug, title, buttonText }}
+				<ShopCard {title} {description} {imgUrl} {slug} {buttonText} />
+			{/each}
+		</div>
+	{/each}
 </div>
 
 <style lang="postcss">

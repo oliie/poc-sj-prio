@@ -14,10 +14,11 @@ export type ShopDetails = {
 };
 
 export type Shop = {
-  imgUrl: string;
-  title: string;
-  description: string;
-  slug: string;
+	imgUrl: string;
+	title: string;
+	description: string;
+	slug: string;
+	buttonText: string;
 };
 
 export type ShopSection = {
