@@ -4,7 +4,7 @@
   import TotalPointsView from '$lib/components/ui/TotalPointsView.svelte';
   import { language } from '$lib/utils/languageUtil';
   import { t } from '$lib/services/i18n';
-  import ShopCard from '$lib/components/ShopCard.svelte';
+  import ShopCard from '$lib/components/ui/ShopCard.svelte';
 
   export let data: { shopList: ShopSection[] };
 
