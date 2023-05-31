@@ -29,9 +29,9 @@
 
 <div class="container mx-auto">
   <div class="grid grid-cols-3 my-12">
-    <div class="col-span-3 html-content md:col-span-2">
+    <div class="col-span-3 md:col-span-2">
       <h1 class="text-4xl font-bold">{t('start_page_title')}</h1>
-      <p class="mt-4">{@html t('start_page_description')}</p>
+      <p class="mt-4 html-content">{@html t('start_page_description')}</p>
     </div>
   </div>
 
@@ -50,9 +50,7 @@
 </div>
 
 <style lang="postcss">
-  .html-content {
-    & a {
-      @apply text-cyan-600 underline;
-    }
+  .html-content :global(a) {
+    @apply text-cyan-600 underline;
   }
 </style>
