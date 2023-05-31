@@ -50,7 +50,9 @@
 </div>
 
 <style lang="postcss">
-  .html-content :global(a) {
-    @apply text-cyan-600 underline;
+  .html-content {
+    & :global(a) {
+      @apply text-cyan-600 underline;
+    }
   }
 </style>
