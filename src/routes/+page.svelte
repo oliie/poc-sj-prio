@@ -32,6 +32,7 @@
   <div class="grid grid-cols-3 my-12">
     <div class="col-span-3 md:col-span-2">
       <h1 class="text-4xl font-bold">{t('start_page_title')}</h1>
+      <!-- eslint-disable svelte/no-at-html-tags -->
       <p class="mt-4 html-content">{@html t('start_page_description')}</p>
     </div>
   </div>
@@ -41,7 +42,7 @@
 
     <h2 class="mb-4 text-2xl font-bold text-center">{header}</h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
       {#each shops as { description, imgUrl, slug, title, buttonText }}
         <ShopCard {title} {description} {imgUrl} {slug} {buttonText} />
       {/each}
