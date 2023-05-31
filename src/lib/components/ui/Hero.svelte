@@ -5,13 +5,16 @@
   export let imageAltText: string;
 </script>
 
-<div class="hero h-[61.8vmax] max-h-[min(80vh,1280px)] bg-sj-dark-sky">
-  {#if imageSrc}<img class="object-cover h-full" src={imageSrc} alt={imageAltText} />{/if}
+<div
+  class="min-h-[60vh] hero bg-sj-dark-sky"
+  style="background-image: url({imageSrc});"
+  aria-label={imageAltText}
+>
   {#if title || introText}
     <div class="hero-overlay bg-opacity-60" />
-    <div class="hero-content text-left text-neutral-content">
+    <div class="text-left hero-content text-neutral-content">
       <div class="max-w-md">
-        {#if title}<h1 class="hero-title mb-5 text-5xl font-bold">{title}</h1>{/if}
+        {#if title}<h1 class="mb-5 text-5xl font-bold hero-title">{title}</h1>{/if}
         {#if introText}<p class="mb-5">{introText}</p>{/if}
       </div>
       <slot />
@@ -20,9 +23,9 @@
 </div>
 
 <style lang="postcss">
-	@supports (text-wrap: balance) {
-		.hero-title {
-			text-wrap: balance;
-		}
-	}
+  @supports (text-wrap: balance) {
+    .hero-title {
+      text-wrap: balance;
+    }
+  }
 </style>
