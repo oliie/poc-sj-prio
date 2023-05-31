@@ -1,14 +1,14 @@
 {
-	"title": "MyMOWO",
-	"description": "På MyMOWO hittar du hundratals enkla, roliga och effektiva hemmaträningspass i olika former från 5 till 30 minuter. Passen streamar du direkt via din dator, telefon eller läsplatta – var du än befinner dig!",
-	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/jul/mymowo-december2020-v1.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
-	"offers": [
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/mymowo-kvinnamedmymowoappen-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "1 träningsmånad",
-			"body": "Du får en värdekod som gäller för inlösning av en fri träningsmånad. Koden är personlig och gäller för 30 kostnadsfria dagar. Värdekoden mejlas direkt efter köp och löses in genom att registrera ett medlemskap på mymowo.com eller i inloggat läge under din profil om du redan är medlem.",
-			"points": 3800,
-			"isLimited": false
-		}
-	]
+  "title": "MyMOWO",
+  "description": "På MyMOWO hittar du hundratals enkla, roliga och effektiva hemmaträningspass i olika former från 5 till 30 minuter. Passen streamar du direkt via din dator, telefon eller läsplatta – var du än befinner dig!",
+  "heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/jul/mymowo-december2020-v1.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+  "offers": [
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/mymowo-kvinnamedmymowoappen-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "1 träningsmånad",
+      "body": "Du får en värdekod som gäller för inlösning av en fri träningsmånad. Koden är personlig och gäller för 30 kostnadsfria dagar. Värdekoden mejlas direkt efter köp och löses in genom att registrera ett medlemskap på mymowo.com eller i inloggat läge under din profil om du redan är medlem.",
+      "points": 3800,
+      "isLimited": false
+    }
+  ]
 }

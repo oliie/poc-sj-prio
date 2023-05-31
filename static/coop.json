@@ -1,28 +1,28 @@
 {
-	"title": "Coop",
-	"description": "På coop.se handlar du din mat online billigt - ofta billigast. Inspireras av tusentals recept och få maten levererad till dörren eller till din närmsta Coop-butik, välj vad som passar dig bäst.",
-	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/coop-matkassar-2021.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
-	"offers": [
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/coop-rabattkod-100.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Rabattkod 100 kr",
-			"body": "En rabattkod som ger 100 kronors avdrag när du beställer från coop.se/handla eller i Coops app. Koden kan inte växlas in mot kontakter eller kombineras med andra Coop-erbjudanden. Använd rabattkoden genom att fylla i fältet \"Kampanjkod\" när du ska betala.",
-			"points": 3000,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/coop-rabattkod-250.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Rabattkod 250 kr",
-			"body": "En rabattkod som ger 250 kronors avdrag när du beställer från coop.se/handla eller i Coops app. Koden kan inte växlas in mot kontakter eller kombineras med andra Coop-erbjudanden. Använd rabattkoden genom att fylla i fältet \"Kampanjkod\" när du ska betala.",
-			"points": 7100,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/coop-rabattkod-500.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Rabattkod 500 kr",
-			"body": "En rabattkod som ger 500 kronors avdrag när du beställer från coop.se/handla eller i Coops app. Koden kan inte växlas in mot kontanter eller kombineras med andra Coop-erbjudanden. Använd rabattkoden genom att fylla i fältet \"Kampanjkod\" när du ska betala.",
-			"points": 13600,
-			"isLimited": false
-		}
-	]
+  "title": "Coop",
+  "description": "På coop.se handlar du din mat online billigt - ofta billigast. Inspireras av tusentals recept och få maten levererad till dörren eller till din närmsta Coop-butik, välj vad som passar dig bäst.",
+  "heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/coop-matkassar-2021.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+  "offers": [
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/coop-rabattkod-100.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Rabattkod 100 kr",
+      "body": "En rabattkod som ger 100 kronors avdrag när du beställer från coop.se/handla eller i Coops app. Koden kan inte växlas in mot kontakter eller kombineras med andra Coop-erbjudanden. Använd rabattkoden genom att fylla i fältet \"Kampanjkod\" när du ska betala.",
+      "points": 3000,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/coop-rabattkod-250.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Rabattkod 250 kr",
+      "body": "En rabattkod som ger 250 kronors avdrag när du beställer från coop.se/handla eller i Coops app. Koden kan inte växlas in mot kontakter eller kombineras med andra Coop-erbjudanden. Använd rabattkoden genom att fylla i fältet \"Kampanjkod\" när du ska betala.",
+      "points": 7100,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/coop-rabattkod-500.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Rabattkod 500 kr",
+      "body": "En rabattkod som ger 500 kronors avdrag när du beställer från coop.se/handla eller i Coops app. Koden kan inte växlas in mot kontanter eller kombineras med andra Coop-erbjudanden. Använd rabattkoden genom att fylla i fältet \"Kampanjkod\" när du ska betala.",
+      "points": 13600,
+      "isLimited": false
+    }
+  ]
 }

@@ -1,35 +1,35 @@
 {
-	"title": "Friends",
-	"description": "Var med och stötta Friends med dina SJ Prio-poäng. De används till de resor som Friends gör för att besöka skolor över hela Sverige.",
-	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/jul/friends-december2020-v1.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
-	"offers": [
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/friends/friends-barnsitterochlyssnar-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 50 poäng",
-			"body": "Friends vill skapa en värld utan mobbning. Där varje barn känner sig älskat och respekterat. Där ingen somnar ledsen, vaknar med ångest och går hemifrån med en klump i magen.",
-			"points": 50,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/friends/friends-skollektion-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 250 poäng",
-			"body": "Genom kunskap, verktyg och stöd förebygger Friends mobbning inom skola, förskola, idrott och näringsliv.",
-			"points": 250,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/friends/friends-barnmalar-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 1 000 poäng",
-			"body": "Friends gör skillnad för barns trygghet. Varje år nås ca 5 600 skolpersonal, huvudmän och idrottsledare och drygt 10 000 barn av Friends utbildningsinsatser.",
-			"points": 1000,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/friends/friends-barnsitteriring-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 2 500 poäng",
-			"body": "Dina SJ Prio-poäng gör att vi kan kämpa ännu hårdare för barns rätt till en trygg och kärleksfull uppväxt.",
-			"points": 2500,
-			"isLimited": false
-		}
-	]
+  "title": "Friends",
+  "description": "Var med och stötta Friends med dina SJ Prio-poäng. De används till de resor som Friends gör för att besöka skolor över hela Sverige.",
+  "heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/jul/friends-december2020-v1.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+  "offers": [
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/friends/friends-barnsitterochlyssnar-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 50 poäng",
+      "body": "Friends vill skapa en värld utan mobbning. Där varje barn känner sig älskat och respekterat. Där ingen somnar ledsen, vaknar med ångest och går hemifrån med en klump i magen.",
+      "points": 50,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/friends/friends-skollektion-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 250 poäng",
+      "body": "Genom kunskap, verktyg och stöd förebygger Friends mobbning inom skola, förskola, idrott och näringsliv.",
+      "points": 250,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/friends/friends-barnmalar-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 1 000 poäng",
+      "body": "Friends gör skillnad för barns trygghet. Varje år nås ca 5 600 skolpersonal, huvudmän och idrottsledare och drygt 10 000 barn av Friends utbildningsinsatser.",
+      "points": 1000,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/friends/friends-barnsitteriring-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 2 500 poäng",
+      "body": "Dina SJ Prio-poäng gör att vi kan kämpa ännu hårdare för barns rätt till en trygg och kärleksfull uppväxt.",
+      "points": 2500,
+      "isLimited": false
+    }
+  ]
 }

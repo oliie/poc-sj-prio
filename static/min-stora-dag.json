@@ -1,35 +1,35 @@
 {
-	"title": "Min stora dag",
-	"description": "Välgörenhetsorganisationen Min Stora Dag finns för barn med allvarliga sjukdomar och diagnoser. Genom Stora Dagar uppfyller de önskningar och ger barn som kämpar lite av sin barndom tillbaka. Din gåva idag blir en resa till en Stor Dag redan imorgon.",
-	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/jul/minstoradag-december2020-v2.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
-	"offers": [
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/min-stora-dag/minstoradag-tjejervidutsiktsplats-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 50 poäng",
-			"body": "Min Stora Dags läger börjar på ett SJ-tåg. Läger som ökar självkänslan och botar utanförskap. ",
-			"points": 50,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/min-stora-dag/minstoradag-familjvidfors-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 250 poäng",
-			"body": "En viktig myshelg med familjen börjar på ett SJ-tåg. En chans att glömma den tuffa vardagen och bara vara. ",
-			"points": 250,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/min-stora-dag/minstoradag-pojkemedfotboll-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 1 000 poäng",
-			"body": "Ett pirrigt idolmöte börjar på ett SJ-tåg. Ett minne att bära med sig när livet känns svårt. ",
-			"points": 1000,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/min-stora-dag/minstoradag-barnpavagtilldisneyonice-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk 2 500 poäng",
-			"body": "En Stor Dag av skoj börjar på ett SJ-tåg. En möjlighet att träffa nya kompisar som förstår hur det är att ha en annorlunda vardag.  ",
-			"points": 2500,
-			"isLimited": false
-		}
-	]
+  "title": "Min stora dag",
+  "description": "Välgörenhetsorganisationen Min Stora Dag finns för barn med allvarliga sjukdomar och diagnoser. Genom Stora Dagar uppfyller de önskningar och ger barn som kämpar lite av sin barndom tillbaka. Din gåva idag blir en resa till en Stor Dag redan imorgon.",
+  "heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/jul/minstoradag-december2020-v2.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+  "offers": [
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/min-stora-dag/minstoradag-tjejervidutsiktsplats-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 50 poäng",
+      "body": "Min Stora Dags läger börjar på ett SJ-tåg. Läger som ökar självkänslan och botar utanförskap. ",
+      "points": 50,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/min-stora-dag/minstoradag-familjvidfors-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 250 poäng",
+      "body": "En viktig myshelg med familjen börjar på ett SJ-tåg. En chans att glömma den tuffa vardagen och bara vara. ",
+      "points": 250,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/min-stora-dag/minstoradag-pojkemedfotboll-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 1 000 poäng",
+      "body": "Ett pirrigt idolmöte börjar på ett SJ-tåg. Ett minne att bära med sig när livet känns svårt. ",
+      "points": 1000,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/min-stora-dag/minstoradag-barnpavagtilldisneyonice-2020.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk 2 500 poäng",
+      "body": "En Stor Dag av skoj börjar på ett SJ-tåg. En möjlighet att träffa nya kompisar som förstår hur det är att ha en annorlunda vardag.  ",
+      "points": 2500,
+      "isLimited": false
+    }
+  ]
 }

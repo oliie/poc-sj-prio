@@ -1,28 +1,28 @@
 {
-	"title": "SJ",
-	"description": "Vill du bjuda någon på en tågresa? Eller bara passa på att utnyttja dina poäng som förfaller? Här kan använda dina poäng till rabatt på nästa resa.",
-	"heroImageUrl": "https://www.sj.se/content/dam/externt/bilder/manniskor/kvinnatittarutgenomfonstretpasnabbtag-x2000-2018.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
-	"offers": [
-		{
-			"imgUrl": "https://www.sj.se/content/dam/externt/bilder/tag/kvinnorochbebisresermedsnabbtag-x2000-2017.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Halva priset: IC/Regional 2 kl",
-			"body": "Värdekod som ger 50 % rabatt på en enkelresa med SJ InterCity-/Regionaltåg i 2 klass. Boka senast 7 dagar innan avresa. Gäller endast vid betalning med pengar. Ange koden i fältet Lägg till Kampanjkod när du söker efter resa här på sj.se eller i appen.",
-			"points": 3000,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/externt/bilder/tag/ungkvinnaresermedsnabbtag-x2000-2017.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Halva priset: Snabbtåg 2 kl",
-			"body": "Värdekod som ger 50 % rabatt på en enkelresa med SJ Snabbtåg i 2 klass. Boka senast 7 dagar innan avresa. Gäller endast vid betalning med pengar. Ange koden i fältet Lägg till Kampanjkod när du söker efter resa här på sj.se eller i appen.",
-			"points": 4500,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/externt/bilder/tag/kvinnaresermedsnabbtag-x2000-2017.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Halva priset: Snabbtåg 1 kl",
-			"body": "Värdekod som ger 50 % rabatt på en enkelresa med SJ Snabbtåg i 1 klass. Boka senast 7 dagar innan avresa. Gäller endast vid betalning med pengar. Ange koden i fältet Lägg till Kampanjkod när du söker efter resa här på sj.se eller i appen.",
-			"points": 6000,
-			"isLimited": true
-		}
-	]
+  "title": "SJ",
+  "description": "Vill du bjuda någon på en tågresa? Eller bara passa på att utnyttja dina poäng som förfaller? Här kan använda dina poäng till rabatt på nästa resa.",
+  "heroImageUrl": "https://www.sj.se/content/dam/externt/bilder/manniskor/kvinnatittarutgenomfonstretpasnabbtag-x2000-2018.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
+  "offers": [
+    {
+      "imgUrl": "https://www.sj.se/content/dam/externt/bilder/tag/kvinnorochbebisresermedsnabbtag-x2000-2017.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Halva priset: IC/Regional 2 kl",
+      "body": "Värdekod som ger 50 % rabatt på en enkelresa med SJ InterCity-/Regionaltåg i 2 klass. Boka senast 7 dagar innan avresa. Gäller endast vid betalning med pengar. Ange koden i fältet Lägg till Kampanjkod när du söker efter resa här på sj.se eller i appen.",
+      "points": 3000,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/externt/bilder/tag/ungkvinnaresermedsnabbtag-x2000-2017.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Halva priset: Snabbtåg 2 kl",
+      "body": "Värdekod som ger 50 % rabatt på en enkelresa med SJ Snabbtåg i 2 klass. Boka senast 7 dagar innan avresa. Gäller endast vid betalning med pengar. Ange koden i fältet Lägg till Kampanjkod när du söker efter resa här på sj.se eller i appen.",
+      "points": 4500,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/externt/bilder/tag/kvinnaresermedsnabbtag-x2000-2017.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Halva priset: Snabbtåg 1 kl",
+      "body": "Värdekod som ger 50 % rabatt på en enkelresa med SJ Snabbtåg i 1 klass. Boka senast 7 dagar innan avresa. Gäller endast vid betalning med pengar. Ange koden i fältet Lägg till Kampanjkod när du söker efter resa här på sj.se eller i appen.",
+      "points": 6000,
+      "isLimited": true
+    }
+  ]
 }

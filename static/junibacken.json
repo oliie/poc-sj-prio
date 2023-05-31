@@ -1,21 +1,21 @@
 {
-	"title": "Junibacken",
-	"description": "Hälsa på hemma hos Alfons Åberg, Pippi Långstrump eller Pettson och Findus. Åk sedan på en resa genom Astrid Lindgrens berättelser med Sagotåget. På Junibacken får barn och vuxna uppleva fantastiska saker tillsammans.",
-	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/junibacken-familjakersagotag-2021.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
-	"offers": [
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/junibacken-pippilangstrump-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Entrébiljett Vuxen",
-			"body": "Du får en värdekod som gäller för inlösning av en entrébiljett för en vuxen. Värdekoden mejlas direkt efter köpet och löses in på junibacken.se/sj-prio/",
-			"points": 3000,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/junibacken-flickaryktarlillagubben-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Entrébiljett Barn",
-			"body": "Du får en värdekod som gäller för inlösning av en entrébiljett för ett barn 2-15 år. Värdekoden mejlas direkt efter köpet och löses in på junibacken.se/sj-prio/",
-			"points": 4500,
-			"isLimited": false
-		}
-	]
+  "title": "Junibacken",
+  "description": "Hälsa på hemma hos Alfons Åberg, Pippi Långstrump eller Pettson och Findus. Åk sedan på en resa genom Astrid Lindgrens berättelser med Sagotåget. På Junibacken får barn och vuxna uppleva fantastiska saker tillsammans.",
+  "heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/junibacken-familjakersagotag-2021.jpg/jcr:content/renditions/cq5dam.web.bg.1440.y.jpg",
+  "offers": [
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/junibacken-pippilangstrump-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Entrébiljett Vuxen",
+      "body": "Du får en värdekod som gäller för inlösning av en entrébiljett för en vuxen. Värdekoden mejlas direkt efter köpet och löses in på junibacken.se/sj-prio/",
+      "points": 3000,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/junibacken-flickaryktarlillagubben-2021.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Entrébiljett Barn",
+      "body": "Du får en värdekod som gäller för inlösning av en entrébiljett för ett barn 2-15 år. Värdekoden mejlas direkt efter köpet och löses in på junibacken.se/sj-prio/",
+      "points": 4500,
+      "isLimited": false
+    }
+  ]
 }

@@ -1,22 +1,22 @@
 <script lang="ts">
-	export let imageSrc: string;
-	export let title: string;
-	export let introText: string;
-	export let imageAltText: string;
+  export let imageSrc: string;
+  export let title: string;
+  export let introText: string;
+  export let imageAltText: string;
 </script>
 
 <div class="hero h-[61.8vmax] max-h-[min(80vh,1280px)] bg-sj-dark-sky">
-	{#if imageSrc}<img class="object-cover h-full" src={imageSrc} alt={imageAltText} />{/if}
-	{#if title || introText}
-		<div class="hero-overlay bg-opacity-60" />
-		<div class="hero-content text-left text-neutral-content">
-			<div class="max-w-md">
-				{#if title}<h1 class="hero-title mb-5 text-5xl font-bold">{title}</h1>{/if}
-				{#if introText}<p class="mb-5">{introText}</p>{/if}
-			</div>
-			<slot />
-		</div>
-	{/if}
+  {#if imageSrc}<img class="object-cover h-full" src={imageSrc} alt={imageAltText} />{/if}
+  {#if title || introText}
+    <div class="hero-overlay bg-opacity-60" />
+    <div class="hero-content text-left text-neutral-content">
+      <div class="max-w-md">
+        {#if title}<h1 class="hero-title mb-5 text-5xl font-bold">{title}</h1>{/if}
+        {#if introText}<p class="mb-5">{introText}</p>{/if}
+      </div>
+      <slot />
+    </div>
+  {/if}
 </div>
 
 <style lang="postcss">

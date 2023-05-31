@@ -1,42 +1,42 @@
 {
-	"title": "Vi-skogen",
-	"description": "Vi-skogen planterar träd som tar människor ur fattigdom. Varje trädplanta som planteras är livsviktig. Träden förbättrar klimatet och ger människor förutsättning för ett bättre liv.",
-	"heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/4-Jakaranda-tree---Riccardo-Gangale.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
-	"offers": [
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/7-Plant-Kenya,-Foto-Marcus-Lundstedt.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Plantera 2 träd",
-			"body": "Genom att ge bort träd bidrar du till att minska fattigdom och förbättra miljön i östra Afrika. För 1 800 poäng planteras 2 träd. Tack för att du är med och gör skillnad!",
-			"points": 1800,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/7-Plant-Kenya,-Foto-Marcus-Lundstedt.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Plantera 5 träd",
-			"body": "Genom att ge bort träd bidrar du till att minska fattigdom och förbättra miljön i östra Afrika. För 4 500 poäng planteras 5 träd. Tack för att du är med och gör skillnad!",
-			"points": 4500,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/7-Plant-Kenya,-Foto-Marcus-Lundstedt.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Plantera 10 träd",
-			"body": "Genom att ge bort träd bidrar du till att minska fattigdom och förbättra miljön i östra Afrika. För 9 000 poäng planteras 10 träd. Tack för att du är med och gör skillnad!",
-			"points": 9000,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/6-Beehive---Samson-Ochieng-in-the-picture.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Skänk en bikupa",
-			"body": "Den här gåvan möjliggör för en bonde i östra Afrika att bli biodlare. Biodlingen ger familjen en ökad möjlighet att skapa ett mer hållbart jordbruk. Du får ett gåvobevis att ge bort.",
-			"points": 9500,
-			"isLimited": false
-		},
-		{
-			"imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/vi-skogen-barn-planterar.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
-			"title": "Klimatsmarta barn",
-			"body": "Den här gåvan ger barn möjlighet att lära sig om miljön, klimatförändringar och förstå hur träd kan hjälpa till att utrota fattigdom och samtidigt bidra till ett bättre klimat. Du får ett gåvobevis att ge bort.",
-			"points": 8100,
-			"isLimited": false
-		}
-	]
+  "title": "Vi-skogen",
+  "description": "Vi-skogen planterar träd som tar människor ur fattigdom. Varje trädplanta som planteras är livsviktig. Träden förbättrar klimatet och ger människor förutsättning för ett bättre liv.",
+  "heroImageUrl": "https://www.sj.se/content/dam/samarbeten-partners/4-Jakaranda-tree---Riccardo-Gangale.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg",
+  "offers": [
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/7-Plant-Kenya,-Foto-Marcus-Lundstedt.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Plantera 2 träd",
+      "body": "Genom att ge bort träd bidrar du till att minska fattigdom och förbättra miljön i östra Afrika. För 1 800 poäng planteras 2 träd. Tack för att du är med och gör skillnad!",
+      "points": 1800,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/7-Plant-Kenya,-Foto-Marcus-Lundstedt.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Plantera 5 träd",
+      "body": "Genom att ge bort träd bidrar du till att minska fattigdom och förbättra miljön i östra Afrika. För 4 500 poäng planteras 5 träd. Tack för att du är med och gör skillnad!",
+      "points": 4500,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/7-Plant-Kenya,-Foto-Marcus-Lundstedt.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Plantera 10 träd",
+      "body": "Genom att ge bort träd bidrar du till att minska fattigdom och förbättra miljön i östra Afrika. För 9 000 poäng planteras 10 träd. Tack för att du är med och gör skillnad!",
+      "points": 9000,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/6-Beehive---Samson-Ochieng-in-the-picture.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Skänk en bikupa",
+      "body": "Den här gåvan möjliggör för en bonde i östra Afrika att bli biodlare. Biodlingen ger familjen en ökad möjlighet att skapa ett mer hållbart jordbruk. Du får ett gåvobevis att ge bort.",
+      "points": 9500,
+      "isLimited": false
+    },
+    {
+      "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/vi-skogen-barn-planterar.jpg/jcr:content/renditions/cqdam.web.880.496.jpg",
+      "title": "Klimatsmarta barn",
+      "body": "Den här gåvan ger barn möjlighet att lära sig om miljön, klimatförändringar och förstå hur träd kan hjälpa till att utrota fattigdom och samtidigt bidra till ett bättre klimat. Du får ett gåvobevis att ge bort.",
+      "points": 8100,
+      "isLimited": false
+    }
+  ]
 }
