@@ -17,15 +17,16 @@
 	};
 </script>
 
+<Hero {...heroData}>
+	<TotalPointsView
+		lang={language.SV}
+		points={34000}
+		pointsTitle="Du har"
+		pointsLabel="poäng att handla för"
+	/>
+</Hero>
+
 <div class="container mx-auto">
-	<Hero {...heroData}>
-		<TotalPointsView
-			lang={language.SV}
-			points={34000}
-			pointsTitle="Du har"
-			pointsLabel="poäng att handla för"
-		/>
-	</Hero>
 	{#each shopList as { header, shops }}
 		<div class="divider" />
 
