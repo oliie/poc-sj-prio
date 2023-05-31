@@ -18,6 +18,7 @@ export type Shop = {
   title: string;
   description: string;
   slug: string;
+  buttonText: string;
 };
 
 export type ShopSection = {

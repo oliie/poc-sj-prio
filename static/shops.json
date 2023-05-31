@@ -6,31 +6,36 @@
         "imgUrl": "https://www.sj.se/content/dam/externt/bilder/manniskor/resenar/kvinnaombordsnabbtag.jpg/jcr%3acontent/renditions/cq5dam.web.1480.y.jpg",
         "title": "SJ",
         "description": "Ge bort en tågresa eller passa på att använd poäng som förfaller.",
-        "slug": "sj"
+        "slug": "sj",
+        "buttonText": "Gå till SJ"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/firsthotels-familj-i-hotellsang-2023.jpg/jcr%3acontent/renditions/cq5dam.web.1480.y.jpg",
         "title": "First Hotels",
         "description": "Använd dina poäng till en unik hotellupplevelse hos First Hotels.",
-        "slug": "first-hotels"
+        "slug": "first-hotels",
+        "buttonText": "Gå till First Hotels"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/hotellpremien-1024x576.jpg/jcr%3acontent/renditions/cq5dam.web.1480.y.jpg",
         "title": "Hotellpremien",
         "description": "Unna dig själv en prisvärd hotellvistelse via Hotellpremien.",
-        "slug": "hotellpremien"
+        "slug": "hotellpremien",
+        "buttonText": "Gå till Hotellpremien"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/junibacken-pippilangstrump-2021.jpg/jcr%3acontent/renditions/cq5dam.web.1480.y.jpg",
         "title": "Junibacken",
         "description": "Besök Junibacken och upplev sagornas värld tillsammans med dina barn.",
-        "slug": "junibacken"
+        "slug": "junibacken",
+        "buttonText": "Gå till Junibacken"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/hotell/scandic-sovande-kvinna-2022-v2.jpg/jcr%3acontent/renditions/cq5dam.web.1480.y.jpg",
         "title": "Scandic",
         "description": "Använd dina SJ Prio-poäng till härliga hotellnätter, goda middagar och frukost på Scandic.",
-        "slug": "scandic"
+        "slug": "scandic",
+        "buttonText": "Gå till Scandic"
       }
     ]
   },
@@ -41,13 +46,15 @@
         "imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/FS_Biomys.jpg/jcr%3acontent/renditions/cq5dam.web.1480.y.jpg",
         "title": "Biobiljetter",
         "description": "Använd dina poäng till biobiljetter hos Filmstaden. Du kan även köpa till mat och dryck.",
-        "slug": "filmstaden"
+        "slug": "filmstaden",
+        "buttonText": "Gå till Biobiljetter"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/sfanytime-1024x576.jpg/jcr%3acontent/renditions/cq5dam.web.1480.y.jpg",
         "title": "SF Anytime",
         "description": "Hyr film eller serier från SF Anytime, ladda ner eller streama var du vill.",
-        "slug": "sf-anytime"
+        "slug": "sf-anytime",
+        "buttonText": "Gå till SF Anytime"
       }
     ]
   },
@@ -58,19 +65,22 @@
         "imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/1024x576-SJ-Nextory.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "Nextory",
         "description": "Mys med en e- eller ljudbok från Nextory.",
-        "slug": "nextory"
+        "slug": "nextory",
+        "buttonText": "Gå till Nextory"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/readly-2021-v2.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "Readly",
         "description": "Koppla av med ett inspirerande magasin.",
-        "slug": "readly"
+        "slug": "readly",
+        "buttonText": "Gå till Readly"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/externt/bilder/ovrigt/langssparet-bokuppstalldpabord-2020.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "Längs spåret",
         "description": "Låt boken Längs spåret inspirera till nästa spännande upptäcktsresa genom Sverige.",
-        "slug": "langs-sparet"
+        "slug": "langs-sparet",
+        "buttonText": "Gå till Längs spåret"
       }
     ]
   },
@@ -81,31 +91,36 @@
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/min-stora-dag/minstoradag-flickapakarusell-2021-v2.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "Min Stora Dag",
         "description": "Stötta Min Stora Dag med dina SJ Prio-poäng.",
-        "slug": "min-stora-dag"
+        "slug": "min-stora-dag",
+        "buttonText": "Gå till Min Stora Dag"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/friends/friends-barnsitteriring-2020.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "Friends",
         "description": "Var med och stötta Friends med dina SJ Prio-poäng.",
-        "slug": "friends"
+        "slug": "friends",
+        "buttonText": "Gå till Friends"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/mind-5-2023.jpg/jcr%3acontent/renditions/cq5dam.web.720.y.jpg",
         "title": "Mind",
         "description": "Bidra till Minds stödverksamheter och arbete med psykisk hälsa genom dina SJ Prio-poäng.",
-        "slug": "mind"
+        "slug": "mind",
+        "buttonText": "Gå till Mind"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/stadasverige-pojkarplockarskrapiskog-2021.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "Städa Sverige",
         "description": "Skänk poäng till städande idrottsungdomar.",
-        "slug": "stada-sverige"
+        "slug": "stada-sverige",
+        "buttonText": "Gå till Städa Sverige"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/7-Plant-Kenya%2c-Foto-Marcus-Lundstedt.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "Vi-skogen",
         "description": "Hjälp klimatet och människor i fattigdom med dina SJ Prio-poäng.",
-        "slug": "vi-skogen"
+        "slug": "vi-skogen",
+        "buttonText": "Gå till Vi-skogen"
       }
     ]
   },
@@ -116,25 +131,29 @@
         "imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/no18-1024x576.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "No18",
         "description": "Använd dina SJ Prio-poäng till inträde till No18 Grand Central under en timme.",
-        "slug": "no18"
+        "slug": "no18",
+        "buttonText": "Gå till No18"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/mymowo-kvinnamedmymowoappen-2020.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "MyMOWO",
         "description": "Men en träningsmånad hos MyMOWO håller du enkelt igång.",
-        "slug": "mymowo"
+        "slug": "mymowo",
+        "buttonText": "Gå till MyMOWO"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/SJ/SJ_Prio/Erbjudanden/HOTDRINKS_COLDDRINKS_LANDSCAPE.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "Espresso House",
         "description": "Använd dina SJ Prio-poäng till en varm eller kall dryck.",
-        "slug": "espresso-house"
+        "slug": "espresso-house",
+        "buttonText": "Gå till Espresso House"
       },
       {
         "imgUrl": "https://www.sj.se/content/dam/samarbeten-partners/coop-lastbil-2021.jpg/jcr%3acontent/renditions/cq5dam.web.2880.y.jpg",
         "title": "Coop",
         "description": "Använd dina SJ Prio-poäng till att handla mat på coop.se",
-        "slug": "coop"
+        "slug": "coop",
+        "buttonText": "Gå till Coop"
       }
     ]
   }
