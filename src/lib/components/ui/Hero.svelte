@@ -11,10 +11,18 @@
     <div class="hero-overlay bg-opacity-60" />
     <div class="hero-content text-left text-neutral-content">
       <div class="max-w-md">
-        {#if title}<h1 class="mb-5 text-5xl font-bold">{title}</h1>{/if}
+        {#if title}<h1 class="hero-title mb-5 text-5xl font-bold">{title}</h1>{/if}
         {#if introText}<p class="mb-5">{introText}</p>{/if}
       </div>
       <slot />
     </div>
   {/if}
 </div>
+
+<style lang="postcss">
+	@supports (text-wrap: balance) {
+		.hero-title {
+			text-wrap: balance;
+		}
+	}
+</style>

@@ -33,3 +33,10 @@ export type User = {
   token: string;
   points: number;
 };
+
+export type HeroProps = {
+	imageSrc: string;
+	title: string;
+	introText: string;
+	imageAltText: string;
+};
