@@ -28,6 +28,7 @@ export type ShopSection = {
 export type User = {
 	firstname: string;
 	lastname: string;
+	email: string;
 	token: string;
 	points: number;
 };
