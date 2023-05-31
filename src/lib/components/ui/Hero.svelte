@@ -5,11 +5,15 @@
   export let imageAltText: string;
 </script>
 
-<div
-  class="min-h-[60vh] hero bg-sj-dark-sky"
-  style="background-image: url({imageSrc});"
-  aria-label={imageAltText}
->
+<div class="hero h-[61.8vmax] max-h-[min(70vh,1280px)] bg-sj-dark-sky">
+  {#if imageSrc}<div class="w-full h-full overflow-hidden">
+      <img
+        class="object-cover object-center h-full w-full block"
+        src={imageSrc}
+        alt={imageAltText}
+      />
+    </div>
+  {/if}
   {#if title || introText}
     <div class="hero-overlay bg-opacity-60" />
     <div class="text-left hero-content text-neutral-content">
