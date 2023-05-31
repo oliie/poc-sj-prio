@@ -1,9 +1,9 @@
-<script>
-  export let title = '';
-  export let imgUrl = '';
-  export let description = '';
-  export let buttonText = '';
-  export let slug = '';
+<script lang="ts">
+  export let title: string;
+  export let imgUrl: string;
+  export let description: string;
+  export let buttonText: string;
+  export let slug: string;
 </script>
 
 <div class="card card-compact w-full bg-base-100 shadow-xl rounded-none">
