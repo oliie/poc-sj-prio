@@ -17,6 +17,10 @@
   $: ({ shopList } = data);
 </script>
 
+<svelte:head>
+  <title>SJ Prio</title>
+</svelte:head>
+
 <Hero {...heroData} />
 
 <div class="container p-4 pb-8 mx-auto">
