@@ -4,6 +4,7 @@
   export let description: string;
   export let buttonText: string;
   export let slug: string;
+  export let headingLevel: 'h2' | 'h3' | 'h4' = 'h3';
 </script>
 
 <div class="w-full rounded-none shadow-xl card card-compact bg-base-100">
@@ -11,7 +12,7 @@
     <img src={`//wsrv.nl/?url=${imgUrl}&w=400&output=webp`} alt="" width="400" height="225" />
   </figure>
   <div class="card-body">
-    <h2 class="card-title">{title}</h2>
+    <svelte:element this={headingLevel} class="card-title">{title}</svelte:element>
     <p>{description}</p>
     <div class="justify-start card-actions">
       <a

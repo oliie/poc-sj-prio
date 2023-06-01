@@ -29,8 +29,8 @@
   />
 </Hero>
 
-<div class="container mx-auto">
-  <div class="grid grid-cols-3 my-12">
+<div class="container p-4 pb-8 mx-auto">
+  <div class="grid grid-cols-3 my-8">
     <div class="col-span-3 md:col-span-2">
       <h1 class="text-4xl font-bold">{t('start_page_title')}</h1>
       <!-- eslint-disable svelte/no-at-html-tags -->
