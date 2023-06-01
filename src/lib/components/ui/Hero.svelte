@@ -24,7 +24,6 @@
         {#if title}<h1 class="mb-5 text-5xl font-bold hero-title">{title}</h1>{/if}
         {#if introText}<p class="mb-5">{introText}</p>{/if}
       </div>
-      <slot />
     </div>
   {/if}
 </div>
