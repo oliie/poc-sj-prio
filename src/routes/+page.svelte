@@ -7,12 +7,11 @@
   export let data: { shopList: ShopSection[] };
 
   const heroData = {
-    title: 'SJ Prioshop',
-    introText:
-      'Unna dig eller ge bort något till någon du tycker om. I våra shoppar hittar du allt hotellvistelser och biobiljetter till välgörenhet och hälsa. Välkommen in!',
+    title: t('start_page_hero_title'),
+    introText: t('start_page_hero_description'),
     imageSrc:
       'https://www.sj.se/content/dam/externt/bilder/natur-landskap/rapsfaltmedskogruntom-2019.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg',
-    imageAltText: 'Ett rapsfält under en blå sommarhimmel.'
+    imageAltText: t('start_page_hero_alt_text')
   };
 
   $: ({ shopList } = data);
