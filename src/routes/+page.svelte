@@ -1,8 +1,6 @@
 <script lang="ts">
   import type { ShopSection } from '$lib/custom-types';
   import Hero from '$lib/components/ui/Hero.svelte';
-  import TotalPointsView from '$lib/components/ui/TotalPointsView.svelte';
-  import { language } from '$lib/utils/languageUtil';
   import { t } from '$lib/services/i18n';
   import ShopCard from '$lib/components/ui/ShopCard.svelte';
 
@@ -19,14 +17,7 @@
   };
 </script>
 
-<Hero {...heroData}>
-  <TotalPointsView
-    lang={language.SV}
-    points={34000}
-    pointsTitle="Du har"
-    pointsLabel="poäng att handla för"
-  />
-</Hero>
+<Hero {...heroData} />
 
 <div class="container p-4 pb-8 mx-auto">
   <div class="grid grid-cols-3 my-8">
