@@ -1,4 +1,4 @@
-<div class="navbar bg-base-100">
+<nav class="navbar bg-base-100">
   <div class="flex-1">
     <a href="/" class="text-xl normal-case btn btn-ghost text-sj-leaf-dark">SJ Prioshop</a>
   </div>
@@ -8,4 +8,4 @@
       <button class="btn btn-ghost">Logga in</button>
     </div>
   </div>
-</div>
+</nav>
