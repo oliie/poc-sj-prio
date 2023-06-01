@@ -1,18 +1,19 @@
 <script lang="ts">
+  import type {HeadingLevel} from "../../custom-types";
+
   export let title: string;
   export let imgUrl: string;
   export let description: string;
   export let buttonText: string;
   export let slug: string;
-  export let headingLevel: 'h2' | 'h3' | 'h4' = 'h3';
+  export let headingLevel: HeadingLevel = 'h3';
 </script>
 
 <div class="w-full rounded-none shadow-xl card card-compact bg-base-100">
   <figure>
-    <!-- TODO: Ändra alt till korrekt -->
     <img
       src={`//wsrv.nl/?url=${imgUrl}&w=400&output=webp`}
-      alt={description}
+      alt=""
       width="400"
       height="225"
     />

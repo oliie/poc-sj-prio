@@ -1,5 +1,6 @@
 export type Offer = {
   imgUrl: string;
+  imgAltText?: string;
   title: string;
   body: string;
   points: number;
@@ -40,3 +41,5 @@ export type HeroProps = {
   introText: string;
   imageAltText: string;
 };
+
+export type HeadingLevel = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
