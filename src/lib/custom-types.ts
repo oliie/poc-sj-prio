@@ -1,5 +1,6 @@
 export type Offer = {
   imgUrl: string;
+  imgAltText?: string;
   title: string;
   body: string;
   points: number;
