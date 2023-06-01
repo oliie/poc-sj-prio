@@ -4,19 +4,19 @@
   export let description: string;
   export let buttonText: string;
   export let slug: string;
+  export let headingLevel: string = 'h3';
 </script>
 
 <div class="w-full rounded-none shadow-xl card card-compact bg-base-100">
   <figure><img src={imgUrl} alt="" /></figure>
   <div class="card-body">
-    <h2 class="card-title">{title}</h2>
+    <{headingLevel} class="card-title">{title}</{headingLevel}>
     <p>{description}</p>
     <div class="justify-start card-actions">
       <a
         href="shops/{slug}"
         class="normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
-        >{buttonText}</a
-      >
+      >{buttonText}</a>
     </div>
   </div>
 </div>
