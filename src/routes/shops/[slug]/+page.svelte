@@ -3,13 +3,13 @@
 
   export let data;
 
-  const { title, description, heroImageUrl, offers } = data;
+  const { title, description, heroImageUrl, heroImageAltText, offers } = data;
   console.log(offers);
 
   const heroData = {
     title,
     introText: description,
-    imageAltText: description,
+    imageAltText: heroImageAltText || '',
     imageSrc: heroImageUrl
   };
 </script>
