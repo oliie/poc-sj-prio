@@ -9,10 +9,9 @@
 
 <div class="w-full rounded-none shadow-xl card card-compact bg-base-100">
   <figure>
-    <!-- TODO: Ändra alt till korrekt -->
     <img
       src={`//wsrv.nl/?url=${imgUrl}&w=400&output=webp`}
-      alt={description}
+      alt=""
       width="400"
       height="225"
     />
