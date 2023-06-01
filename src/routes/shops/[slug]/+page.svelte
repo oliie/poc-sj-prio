@@ -1,5 +1,6 @@
 <script lang="ts">
   import Hero from '$lib/components/ui/Hero.svelte';
+  import Offers from '$lib/components/ui/Offers.svelte';
 
   export let data;
 
@@ -16,13 +17,6 @@
 
 <Hero {...heroData} />
 
-<h2>Här ska ett gäng grejer in</h2>
-
-<ul>
-  {#each offers as { title, body, points }}
-    <li>
-      <h3>{title}</h3>
-      <p>{body}</p>
-    </li>
-  {/each}
-</ul>
+<div class="container p-4 pb-8 mx-auto">
+  <Offers {offers} />
+</div>

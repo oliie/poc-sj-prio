@@ -33,4 +33,7 @@
       text-wrap: balance;
     }
   }
+  .hero {
+    overflow-y: hidden;
+  }
 </style>
