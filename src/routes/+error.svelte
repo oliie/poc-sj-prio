@@ -13,7 +13,10 @@
 
 <div class="container p-4 mx-auto text-center">
   <h1 class="mb-4 text-2xl font-bold text-center">{t('error_page_title')}</h1>
-  <a href="/" class="border-none btn btn-primary bg-sj-leaf hover:bg-sj-leaf-hover">
+  <a
+    href="/"
+    class="normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
+  >
     {t('error_page_link_text')}
   </a>
 </div>
