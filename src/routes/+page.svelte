@@ -1,33 +1,24 @@
 <script lang="ts">
   import type { ShopSection } from '$lib/custom-types';
   import Hero from '$lib/components/ui/Hero.svelte';
-  import TotalPointsView from '$lib/components/ui/TotalPointsView.svelte';
-  import { language } from '$lib/utils/languageUtil';
   import { t } from '$lib/services/i18n';
   import ShopCard from '$lib/components/ui/ShopCard.svelte';
 
   export let data: { shopList: ShopSection[] };
 
-  $: ({ shopList } = data);
-
   const heroData = {
-    title: 'First hotels',
+    title: 'SJ Prioshop',
     introText:
-      'Dina SJ Prio-poäng kan växlas in mot värdecheckar som kan användas på alla First Hotels i Sverige.',
+      'Unna dig eller ge bort något till någon du tycker om. I våra shoppar hittar du allt hotellvistelser och biobiljetter till välgörenhet och hälsa. Välkommen in!',
     imageSrc:
       'https://www.sj.se/content/dam/externt/bilder/natur-landskap/rapsfaltmedskogruntom-2019.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg',
     imageAltText: 'Ett rapsfält under en blå sommarhimmel.'
   };
+
+  $: ({ shopList } = data);
 </script>
 
-<Hero {...heroData}>
-  <TotalPointsView
-    lang={language.SV}
-    points={34000}
-    pointsTitle="Du har"
-    pointsLabel="poäng att handla för"
-  />
-</Hero>
+<Hero {...heroData} />
 
 <div class="container p-4 pb-8 mx-auto">
   <div class="grid grid-cols-3 my-8">
