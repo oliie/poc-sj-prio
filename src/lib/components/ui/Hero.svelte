@@ -9,9 +9,11 @@
   {#if imageSrc}
     <div class="w-full h-full overflow-hidden">
       <img
-        class="object-cover object-center h-full w-full block"
-        src={imageSrc}
+        class="block object-cover object-center w-full h-full"
+        src={`//wsrv.nl/?url=${imageSrc}&w=1920&output=webp`}
         alt={imageAltText}
+        width="1920"
+        height="630"
       />
     </div>
   {/if}

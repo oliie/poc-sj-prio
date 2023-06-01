@@ -14,7 +14,8 @@
     title: 'First hotels',
     introText:
       'Dina SJ Prio-poäng kan växlas in mot värdecheckar som kan användas på alla First Hotels i Sverige.',
-    imageSrc: '/images/hero1.jpg',
+    imageSrc:
+      'https://www.sj.se/content/dam/externt/bilder/natur-landskap/rapsfaltmedskogruntom-2019.jpg/jcr:content/renditions/cq5dam.web.bg.1920.y.jpg',
     imageAltText: 'Ett rapsfält under en blå sommarhimmel.'
   };
 </script>
