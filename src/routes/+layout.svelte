@@ -3,6 +3,10 @@
   import '../app.css';
 </script>
 
+<svelte:head>
+  <meta name="author" content="SJ" />
+</svelte:head>
+
 <header>
   <NavBar />
 </header>
