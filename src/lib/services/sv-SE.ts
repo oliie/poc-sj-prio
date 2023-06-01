@@ -5,7 +5,10 @@ const translations: { [key: string]: string } = {
     'Unna dig eller ge bort något till någon du tycker om. I våra shoppar hittar du allt hotellvistelser och biobiljetter till välgörenhet och hälsa. Välkommen in!',
   start_page_title: 'SJ Prio poängshop',
   start_page_description:
-    'I våra poängshoppar kan du använda dina SJ Prio-poäng till tågresor, biobiljetter, ljudböcker, hyrfilm och mycket mer. Unna dig själv eller ge bort till någon som du tycker om. <br><br><i>Vi reserverar oss för att varor kan sälja slut eller bara säljs under en begränsad period.</i> <a href="https://www.sj.se/sv/sj-prio/poang/sj-prio-poangshop.html" target="_blank">Läs villkor för SJ Prio poängshop.</a>'
+    'I våra poängshoppar kan du använda dina SJ Prio-poäng till tågresor, biobiljetter, ljudböcker, hyrfilm och mycket mer. Unna dig själv eller ge bort till någon som du tycker om. <br><br><i>Vi reserverar oss för att varor kan sälja slut eller bara säljs under en begränsad period.</i> <a href="https://www.sj.se/sv/sj-prio/poang/sj-prio-poangshop.html" target="_blank">Läs villkor för SJ Prio poängshop.</a>',
+  error_page_hero_alt_text: 'Övergiven tågstation',
+  error_page_title: 'Vi kunde inte hitta sidan du sökte.',
+  error_page_link_text: 'Gå tillbaka till start'
 };
 
 export default translations;

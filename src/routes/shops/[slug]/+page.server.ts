@@ -2,13 +2,9 @@ import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 
 export const load: PageServerLoad = async ({ params, fetch }) => {
-  // TODO: errror handling doesn't work at the moment…
+  const response = await fetch(`/api/shops/${params.slug}`);
 
-  try {
-    const response = await fetch(`/api/shops/${params.slug}`);
-    return await response.json();
-  } catch (e) {
-    console.log('nothing to see');
-    throw error(404);
-  }
+  if (!response.ok) throw error(404, { message: 'Sidan kunde inte hittas' });
+
+  return await response.json();
 };
