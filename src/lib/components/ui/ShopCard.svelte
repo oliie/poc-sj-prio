@@ -9,7 +9,13 @@
 
 <div class="w-full rounded-none shadow-xl card card-compact bg-base-100">
   <figure>
-    <img src={`//wsrv.nl/?url=${imgUrl}&w=400&output=webp`} alt="" width="400" height="225" />
+    <!-- TODO: Ändra alt till korrekt -->
+    <img
+      src={`//wsrv.nl/?url=${imgUrl}&w=400&output=webp`}
+      alt={description}
+      width="400"
+      height="225"
+    />
   </figure>
   <div class="card-body">
     <svelte:element this={headingLevel} class="card-title">{title}</svelte:element>
