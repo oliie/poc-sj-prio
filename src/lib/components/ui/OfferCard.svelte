@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type {HeadingLevel} from "../../custom-types";
+  import type {HeadingLevel} from "$lib/custom-types";
 
   export let title: string;
   export let imgUrl: string;
