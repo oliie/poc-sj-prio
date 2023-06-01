@@ -1,12 +1,12 @@
 <script lang="ts">
-  import type { ShopSection } from '$lib/custom-types';
   import Hero from '$lib/components/ui/Hero.svelte';
   import TotalPointsView from '$lib/components/ui/TotalPointsView.svelte';
   import { language } from '$lib/utils/languageUtil';
   import { t } from '$lib/services/i18n';
-  import Shops from '$lib/components/ui/Shops.svelte';
+  import ShopSection from '$lib/components/ui/ShopSection.svelte';
+  import type { ShopList } from '$lib/custom-types';
 
-  export let data: { shopList: ShopSection[] };
+  export let data: { shopList: ShopList[] };
 
   $: ({ shopList } = data);
 
@@ -38,13 +38,7 @@
     </div>
   </div>
 
-  {#each shopList as { header, shops }}
-    <div class="divider" />
-
-    <h2 class="mb-4 text-2xl font-bold text-center">{header}</h2>
-
-    <Shops {shops} />
-  {/each}
+  <ShopSection {shopList} />
 </div>
 
 <style lang="postcss">
