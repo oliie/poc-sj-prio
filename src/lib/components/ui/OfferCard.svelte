@@ -31,7 +31,13 @@
     </div>
   </div>
   <figure class="relative order-1">
-    <img src={imgUrl} alt={imgAltText} class="w-full" />
+    <img
+      src={`//wsrv.nl/?url=${imgUrl}&w=400&output=webp`}
+      alt={imgAltText}
+      width="400"
+      height="225"
+      class="w-full"
+    />
     {#if isLimited}
       <div
         class="absolute bottom-0 left-0 flex items-center justify-center w-1/5 text-white bg-sj-sky-dark h-1/5"
