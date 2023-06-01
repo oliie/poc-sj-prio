@@ -23,8 +23,6 @@
 
 <Hero {...heroData} />
 
-<Hero {...heroData} />
-
 <div class="container p-4 pb-8 mx-auto">
   <ShopSection {shopList} />
 </div>

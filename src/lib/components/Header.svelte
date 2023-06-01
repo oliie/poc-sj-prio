@@ -1,9 +1,7 @@
 <script lang="ts">
-  import { language } from '$lib/utils/languageUtil';
   import HeaderUserInfo from '$lib/components/ui/HeaderUserInfo.svelte';
   import type { User } from '$lib/custom-types';
 
-  export let lang: language = language.SV;
   export let user: User | null;
   export let logInLabel: string;
   export let logOutLabel: string;
@@ -18,7 +16,6 @@
   </nav>
   <HeaderUserInfo
     {...{
-      lang,
       user,
       logInLabel,
       logOutLabel,

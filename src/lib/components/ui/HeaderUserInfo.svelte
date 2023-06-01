@@ -1,8 +1,7 @@
 <script lang="ts">
-  import { language, locale } from '$lib/utils/languageUtil';
   import type { User } from '$lib/custom-types';
+  import { numberWithSpaces } from '$lib/utils/helpers';
 
-  export let lang = language.SV;
   export let user: User | null;
   export let pointsLabel: string;
   export let logInLabel: string;
@@ -12,8 +11,7 @@
 
   $: fullName = user ? `${user.firstname} ${user.lastname}` : '';
 
-  const pointsFormatter = new Intl.NumberFormat(locale[lang]);
-  $: formattedPoints = pointsFormatter.format(user?.points || 0);
+  $: formattedPoints = numberWithSpaces(user?.points || 0);
 </script>
 
 <div class="flex gap-4">
