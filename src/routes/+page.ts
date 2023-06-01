@@ -1,6 +1,9 @@
+import { error } from '@sveltejs/kit';
+
 export async function load({ fetch }) {
   const response = await fetch('/api/shops');
-  const shopList = await response.json();
 
-  return { shopList };
+  if (!response.ok) throw error(404, { message: 'Sidan kunde inte hittas' });
+
+  return { shopList: await response.json() };
 }

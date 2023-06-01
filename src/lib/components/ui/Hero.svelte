@@ -5,13 +5,15 @@
   export let imageAltText: string;
 </script>
 
-<div class="hero h-[61.8vmax] max-h-[min(70vh,1280px)] bg-sj-dark-sky">
+<div class="hero h-[61.8vmax] max-h-[min(70vh,1280px)] bg-sj-dark-sky overflow-y-hidden">
   {#if imageSrc}
     <div class="w-full h-full overflow-hidden">
       <img
-        class="object-cover object-center h-full w-full block"
-        src={imageSrc}
+        class="block object-cover object-center w-full h-full"
+        src={`//wsrv.nl/?url=${imageSrc}&w=1920&output=webp`}
         alt={imageAltText}
+        width="1920"
+        height="630"
       />
     </div>
   {/if}
@@ -20,9 +22,9 @@
     <div class="text-left hero-content text-neutral-content">
       <div class="max-w-md">
         {#if title}<h1 class="mb-5 text-5xl font-bold hero-title">{title}</h1>{/if}
-        {#if introText}<p class="mb-5">{introText}</p>{/if}
+        <!-- eslint-disable svelte/no-at-html-tags -->
+        {#if introText}<p class="mb-5 html-content">{@html introText}</p>{/if}
       </div>
-      <slot />
     </div>
   {/if}
 </div>
@@ -31,6 +33,12 @@
   @supports (text-wrap: balance) {
     .hero-title {
       text-wrap: balance;
+    }
+  }
+
+  .html-content {
+    & :global(a) {
+      @apply text-cyan-200 underline;
     }
   }
 </style>

@@ -1,5 +1,6 @@
 export type Offer = {
   imgUrl: string;
+  imgAltText?: string;
   title: string;
   body: string;
   points: number;
@@ -21,7 +22,7 @@ export type Shop = {
   buttonText: string;
 };
 
-export type ShopSection = {
+export type ShopList = {
   header: string;
   shops: Shop[];
 };
@@ -35,8 +36,10 @@ export type User = {
 };
 
 export type HeroProps = {
-	imageSrc: string;
-	title: string;
-	introText: string;
-	imageAltText: string;
+  imageSrc: string;
+  title: string;
+  introText: string;
+  imageAltText: string;
 };
+
+export type HeadingLevel = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';

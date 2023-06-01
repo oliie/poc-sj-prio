@@ -1,16 +1,23 @@
 <script lang="ts">
-  import Hero from '$lib/components/ui/Hero.svelte';
+  import type {HeadingLevel} from "../../custom-types";
 
   export let title: string;
   export let imgUrl: string;
   export let description: string;
   export let buttonText: string;
   export let slug: string;
-  export let headingLevel: 'h2' | 'h3' | 'h4' = 'h3';
+  export let headingLevel: HeadingLevel = 'h3';
 </script>
 
 <div class="w-full card card-compact card-bordered bg-base-100 hover:shadow-md transition-shadow">
-  <figure><img src={imgUrl} alt="" /></figure>
+  <figure>
+    <img
+      src={`//wsrv.nl/?url=${imgUrl}&w=400&output=webp`}
+      alt=""
+      width="400"
+      height="225"
+    />
+  </figure>
   <div class="card-body">
     <svelte:element this={headingLevel} class="card-title">{title}</svelte:element>
     <p>{description}</p>
