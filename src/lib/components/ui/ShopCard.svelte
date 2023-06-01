@@ -1,10 +1,12 @@
 <script lang="ts">
+  import type {HeadingLevels} from "../../custom-types";
+
   export let title: string;
   export let imgUrl: string;
   export let description: string;
   export let buttonText: string;
   export let slug: string;
-  export let headingLevel: 'h2' | 'h3' | 'h4' = 'h3';
+  export let headingLevel: HeadingLevels = 'h3';
 </script>
 
 <div class="w-full rounded-none shadow-xl card card-compact bg-base-100">

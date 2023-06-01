@@ -1,4 +1,6 @@
 <script lang="ts">
+  import type {HeadingLevels} from "../../custom-types";
+
   export let title: string;
   export let imgUrl: string;
   export let body: string;
@@ -6,7 +8,7 @@
   export let isLimited: boolean;
 
   let userPoints = 500;
-  export let headingLevel: 'h2' | 'h3' | 'h4' = 'h2';
+  export let headingLevel: HeadingLevels = "h2"
   export let imgAltText = "";
 </script>
 
