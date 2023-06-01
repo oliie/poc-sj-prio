@@ -5,7 +5,7 @@
   export let imageAltText: string;
 </script>
 
-<div class="hero h-[61.8vmax] max-h-[min(70vh,1280px)] bg-sj-dark-sky">
+<div class="hero h-[61.8vmax] max-h-[min(70vh,1280px)] bg-sj-dark-sky overflow-y-hidden">
   {#if imageSrc}
     <div class="w-full h-full overflow-hidden">
       <img
@@ -32,8 +32,5 @@
     .hero-title {
       text-wrap: balance;
     }
-  }
-  .hero {
-    overflow-y: hidden;
   }
 </style>
