@@ -21,7 +21,7 @@ export type Shop = {
   buttonText: string;
 };
 
-export type ShopSection = {
+export type ShopList = {
   header: string;
   shops: Shop[];
 };
@@ -35,8 +35,8 @@ export type User = {
 };
 
 export type HeroProps = {
-	imageSrc: string;
-	title: string;
-	introText: string;
-	imageAltText: string;
+  imageSrc: string;
+  title: string;
+  introText: string;
+  imageAltText: string;
 };
