@@ -10,7 +10,7 @@
 <div class="w-full rounded-none shadow-xl card card-compact bg-base-100">
   <figure><img src={imgUrl} alt="" /></figure>
   <div class="card-body">
-    <{headingLevel} class="card-title">{title}</{headingLevel}>
+    <svelte:element this={headingLevel} class="card-title">{title}</svelte:element>
     <p>{description}</p>
     <div class="justify-start card-actions">
       <a
