@@ -19,6 +19,10 @@
 
 <svelte:head>
   <title>SJ Prio</title>
+  <meta
+    name="description"
+    content="Använd dina SJ Prio-poäng till bl.a. biobiljetter, ljudböcker och mer. Besök SJ Prios Poängshop här och nyttja dina poäng!"
+  />
 </svelte:head>
 
 <Hero {...heroData} />
