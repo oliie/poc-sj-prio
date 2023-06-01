@@ -22,7 +22,8 @@
     <div class="text-left hero-content text-neutral-content">
       <div class="max-w-md">
         {#if title}<h1 class="mb-5 text-5xl font-bold hero-title">{title}</h1>{/if}
-        {#if introText}<p class="mb-5">{introText}</p>{/if}
+        <!-- eslint-disable svelte/no-at-html-tags -->
+        {#if introText}<p class="mb-5 html-content">{@html introText}</p>{/if}
       </div>
     </div>
   {/if}
@@ -32,6 +33,12 @@
   @supports (text-wrap: balance) {
     .hero-title {
       text-wrap: balance;
+    }
+  }
+
+  .html-content {
+    & :global(a) {
+      @apply text-cyan-200 underline;
     }
   }
 </style>

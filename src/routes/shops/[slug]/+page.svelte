@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { page } from '$app/stores';
   import Hero from '$lib/components/ui/Hero.svelte';
   import Offers from '$lib/components/ui/Offers.svelte';
 
@@ -13,7 +14,22 @@
     imageAltText: heroImageAltText || '',
     imageSrc: heroImageUrl
   };
+
+  const metaTags = [
+    { name: 'description', content: description },
+    { property: 'og:title', content: title },
+    { property: 'og:description', content: description },
+    { property: 'og:image', content: heroImageUrl },
+    { property: 'og:url', content: $page.url }
+  ];
 </script>
+
+<svelte:head>
+  <title>SJ Prio - {title}</title>
+  {#each metaTags as { name, content, property }}
+    <meta {name} {content} {property} />
+  {/each}
+</svelte:head>
 
 <Hero {...heroData} />
 
