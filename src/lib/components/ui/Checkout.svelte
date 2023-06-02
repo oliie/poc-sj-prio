@@ -10,18 +10,25 @@
 
   let amount = 1;
   let acceptedTerms = false;
+  let purchaseSuccessful = false;
 
   const dispatch = createEventDispatcher();
 
   const increment = () => amount++;
   const decrement = () => amount > 1 && amount--;
 
-  const handleCloseModal = () => dispatch('closeModal');
+  const handleCloseModal = () => {
+    amount = 1;
+    acceptedTerms = false;
+    purchaseSuccessful = false;
+    dispatch('closeModal');
+  };
 
   const handleCheckout = () => {
     // TODO: Implement checkout logic
     // 1. Remove points from user
-    // 2. Show confrimation
+
+    purchaseSuccessful = true;
   };
 </script>
 
@@ -34,6 +41,8 @@
   >
     {t('close')}
   </button>
+{:else if purchaseSuccessful}
+  HTMLObjectElement
 {:else}
   <h3 class="pb-4 text-2xl font-bold">{title}</h3>
 
@@ -69,7 +78,10 @@
 
     <div class="divider" />
 
-    <div class="text-sm text-right text-gray-400">{t('confirmation_will_be_sent_to')} TODO</div>
+    <div class="text-sm text-right text-gray-400">
+      {t('confirmation_will_be_sent_to')}
+      {$user?.email}
+    </div>
   </div>
 
   <div class="grid grid-cols-2 gap-4 pt-4">
