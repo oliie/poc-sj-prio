@@ -6,7 +6,6 @@
   export let data;
 
   const { title, description, heroImageUrl, heroImageAltText, offers } = data;
-  console.log(offers);
 
   const heroData = {
     title,
