@@ -12,7 +12,9 @@
 
 <header class="navbar sticky top-0 z-50 justify-between bg-base-100">
   <nav>
-    <a href="/" class="text-xl normal-case btn btn-ghost text-sj-leaf-dark">SJ Prioshop</a>
+    <a href="/" class="text-xl normal-case btn btn-ghost text-sj-leaf-dark"
+      >{t('start_page_hero_title')}</a
+    >
   </nav>
 
   <div class="flex gap-4">
