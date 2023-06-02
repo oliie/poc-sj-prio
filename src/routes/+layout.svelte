@@ -1,15 +1,13 @@
 <script>
-  import NavBar from '$lib/components/NavBar.svelte';
   import '../app.css';
+  import Header from '$lib/components/Header.svelte';
 </script>
 
 <svelte:head>
   <meta name="author" content="SJ" />
 </svelte:head>
 
-<header>
-  <NavBar />
-</header>
+<Header />
 
 <main>
   <slot />
