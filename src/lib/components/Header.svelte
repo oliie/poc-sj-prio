@@ -3,8 +3,8 @@
   import { numberWithSpaces } from '$lib/utils/helpers';
   import { t } from '$lib/services/i18n';
 
-  const signInLabel = t('log_in_label');
-  const signOutLabel = t('log_out_label');
+  const signInLabel = t('sign_in_label');
+  const signOutLabel = t('sign_out_label');
   const pointsLabel = t('total_points_label');
 
   $: formattedPoints = numberWithSpaces($user?.points || 0);

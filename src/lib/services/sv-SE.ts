@@ -8,8 +8,8 @@ const translations: { [key: string]: string } = {
   error_page_title: 'Vi kunde inte hitta sidan du sökte.',
   error_page_link_text: 'Gå tillbaka till start',
   total_points_label: 'poäng',
-  log_in_label: 'Logga in',
-  log_out_label: 'Logga ut'
+  sign_in_label: 'Logga in',
+  sign_out_label: 'Logga ut'
 };
 
 export default translations;
