@@ -25,8 +25,8 @@
 </script>
 
 {#if $user && $user?.points < points}
-  <h3 class="my-4 text-4xl font-bold">Inte tillräckligt med poäng</h3>
-  <p>Du har inte tillräckligt med Prio-poäng för att köpa den här produkten.</p>
+  <h3 class="my-4 text-4xl font-bold">{t('not_enough_points_header')}</h3>
+  <p>{t('not_enough_points_description')}</p>
   <button
     class="w-full mt-6 normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover"
     on:click={handleCloseModal}
