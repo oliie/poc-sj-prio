@@ -30,7 +30,7 @@
 
   const handleOfferSelected = (event: CustomEvent) => {
     offer = event.detail.offer;
-    show = !show;
+    show = true;
   };
 
   const handleCloseModal = () => (show = false);

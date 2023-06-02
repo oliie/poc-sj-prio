@@ -3,7 +3,9 @@
 
   let modal: HTMLDialogElement;
 
-  $: if (modal) show ? modal.showModal() : modal.close();
+  $: if (modal) {
+    show ? modal.showModal() : modal.close();
+  }
 
   const handleOutsideClick = (e: MouseEvent) => {
     const dialogDimensions = modal.getBoundingClientRect();
@@ -20,7 +22,7 @@
   };
 </script>
 
-<!-- Disabled since screen readers can't click outside -->
+<!-- Won't use a on:key-event since screen readers can't click outside -->
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <dialog
   class="w-full p-6 transition-all rounded-lg backdrop:bg-black/50 lg:w-1/2 md:2/3"
