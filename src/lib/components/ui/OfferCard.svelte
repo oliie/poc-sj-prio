@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { HeadingLevel } from '$lib/custom-types';
+  import { user } from '$lib/stores/user';
 
   export let title: string;
   export let imgUrl: string;
@@ -20,7 +21,7 @@
       <div class="text-2xl stat-value">{points}p</div>
     </div>
     <div class="justify-start card-actions">
-      {#if userPoints >= points}
+      {#if $user}
         <button
           on:click
           class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
