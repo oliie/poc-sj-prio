@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { HeadingLevel } from '$lib/custom-types';
+  import { numberWithSpaces } from '$lib/utils/helpers.js';
 
   export let title: string;
   export let imgUrl: string;
@@ -12,25 +13,10 @@
   export let imgAltText = '';
 </script>
 
-<div class="flex flex-col w-full max-w-sm rounded-none shadow-xl card card-compact bg-base-100">
-  <div class="order-2 card-body">
-    <svelte:element this={headingLevel} class="card-title">{title}</svelte:element>
-    <p>{body}</p>
-    <div class="pl-0 stat">
-      <div class="text-2xl stat-value">{points}p</div>
-    </div>
-    <div class="justify-start card-actions">
-      {#if userPoints >= points}
-        <button
-          on:click
-          class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
-        >
-          Köp
-        </button>
-      {/if}
-    </div>
-  </div>
-  <figure class="relative order-1">
+<div
+  class="h-full w-full card card-compact card-bordered rounded-[8px] bg-base-100 hover:shadow-md transition-shadow"
+>
+  <figure class="relative">
     <img
       src={`//wsrv.nl/?url=${imgUrl}&w=400&output=webp`}
       alt={imgAltText}
@@ -40,10 +26,26 @@
     />
     {#if isLimited}
       <div
-        class="absolute bottom-0 left-0 flex items-center justify-center w-1/5 text-white bg-sj-sky-dark h-1/5"
+        class="badge text-white text-sm bg-sj-sky-dark h-1/5 absolute border-none bottom-4 left-4"
       >
-        <span class="text-sm">Få kvar</span>
+        Få kvar
       </div>
     {/if}
   </figure>
+
+  <div class="card-body">
+    <svelte:element this={headingLevel} class="card-title">{title}</svelte:element>
+    <p>{body}</p>
+    <div class="text-lg font-bold">{numberWithSpaces(points)}p</div>
+    {#if userPoints >= points}
+      <div class="justify-start card-actions">
+        <button
+          on:click
+          class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
+        >
+          Köp
+        </button>
+      </div>
+    {/if}
+  </div>
 </div>
