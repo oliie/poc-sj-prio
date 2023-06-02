@@ -10,7 +10,10 @@ const translations: { [key: string]: string } = {
   accept_terms: 'Jag godkänner SJs köpvillkor',
   confirmation_will_be_sent_to: 'Bekräftelse kommer skickas till',
   close: 'Stäng',
-  use: 'Använd'
+  use: 'Använd',
+  total_points_label: 'poäng',
+  sign_in_label: 'Logga in',
+  sign_out_label: 'Logga ut'
 };
 
 export default translations;
