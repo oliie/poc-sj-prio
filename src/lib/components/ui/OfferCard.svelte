@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type {HeadingLevel} from "$lib/custom-types";
+  import type { HeadingLevel } from '$lib/custom-types';
 
   export let title: string;
   export let imgUrl: string;
@@ -8,21 +8,22 @@
   export let isLimited: boolean;
 
   let userPoints = 500;
-  export let headingLevel: HeadingLevel = "h2"
-  export let imgAltText = "";
+  export let headingLevel: HeadingLevel = 'h2';
+  export let imgAltText = '';
 </script>
 
-<div class="card card-compact w-full bg-base-100 shadow-xl rounded-none max-w-sm flex flex-col">
-  <div class="card-body order-2">
+<div class="flex flex-col w-full max-w-sm rounded-none shadow-xl card card-compact bg-base-100">
+  <div class="order-2 card-body">
     <svelte:element this={headingLevel} class="card-title">{title}</svelte:element>
     <p>{body}</p>
-    <div class="stat pl-0">
-      <div class="stat-value">{points}p</div>
+    <div class="pl-0 stat">
+      <div class="text-2xl stat-value">{points}p</div>
     </div>
-    <div class="card-actions justify-start">
+    <div class="justify-start card-actions">
       {#if userPoints >= points}
         <button
-          class="btn btn-primary w-full bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark rounded-none border-none normal-case"
+          on:click
+          class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
         >
           Köp
         </button>
@@ -30,12 +31,18 @@
     </div>
   </div>
   <figure class="relative order-1">
-    <img src={imgUrl} alt={imgAltText} class="w-full" />
+    <img
+      src={`//wsrv.nl/?url=${imgUrl}&w=400&output=webp`}
+      alt={imgAltText}
+      width="400"
+      height="225"
+      class="w-full"
+    />
     {#if isLimited}
       <div
-              class="bg-sj-sky-dark text-white w-1/5 h-1/5 flex justify-center items-center absolute left-0 bottom-0"
+        class="absolute bottom-0 left-0 flex items-center justify-center w-1/5 text-white bg-sj-sky-dark h-1/5"
       >
-        <span>Få kvar</span>
+        <span class="text-sm">Få kvar</span>
       </div>
     {/if}
   </figure>

@@ -7,6 +7,10 @@ const translations: { [key: string]: string } = {
   error_page_hero_alt_text: 'Övergiven tågstation',
   error_page_title: 'Vi kunde inte hitta sidan du sökte.',
   error_page_link_text: 'Gå tillbaka till start',
+  accept_terms: 'Jag godkänner SJs köpvillkor',
+  confirmation_will_be_sent_to: 'Bekräftelse kommer skickas till',
+  close: 'Stäng',
+  use: 'Använd',
   total_points_label: 'poäng',
   sign_in_label: 'Logga in',
   sign_out_label: 'Logga ut'
