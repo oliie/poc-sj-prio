@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Offer } from '$lib/custom-types';
   import { t } from '$lib/services/i18n';
+  import { user } from '$lib/stores/user';
   import { createEventDispatcher } from 'svelte';
 
   export let offer: Offer;
@@ -57,7 +58,10 @@
 
   <div class="divider" />
 
-  <div class="text-sm text-right text-gray-400">{t('confirmation_will_be_sent_to')} TODO</div>
+  <div class="text-sm text-center text-gray-400">
+    {t('confirmation_will_be_sent_to')}
+    {$user?.email}
+  </div>
 </div>
 
 <div class="grid grid-cols-2 gap-4 pt-4">
