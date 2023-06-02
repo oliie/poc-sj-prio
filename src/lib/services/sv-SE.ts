@@ -14,7 +14,10 @@ const translations: { [key: string]: string } = {
   total_points_label: 'poäng',
   sign_in_label: 'Logga in',
   sign_out_label: 'Logga ut',
-  login_info_box: 'Logga in för att kunna handla/skänka i våra SJ Prio-shoppar'
+  login_info_box: 'Logga in för att kunna handla/skänka i våra SJ Prio-shoppar',
+  not_enough_points_header: 'Inte tillräckligt med poäng',
+  not_enough_points_description:
+    'Du har inte tillräckligt med Prio-poäng för att köpa den här produkten.'
 };
 
 export default translations;
