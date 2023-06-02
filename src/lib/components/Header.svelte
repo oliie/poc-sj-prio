@@ -1,27 +1,29 @@
 <script lang="ts">
-  import HeaderUserInfo from '$lib/components/ui/HeaderUserInfo.svelte';
-  import type { User } from '$lib/custom-types';
+  import { user } from '$lib/stores/user';
+  import { numberWithSpaces } from '$lib/utils/helpers';
+  import { t } from '$lib/services/i18n';
 
-  export let user: User | null;
-  export let logInLabel: string;
-  export let logOutLabel: string;
-  export let pointsLabel: string;
-  export let onLogOutClicked: () => void;
-  export let onLogInClicked: () => void;
+  const signInLabel = t('log_in_label');
+  const signOutLabel = t('log_out_label');
+  const pointsLabel = t('total_points_label');
+
+  $: formattedPoints = numberWithSpaces($user?.points || 0);
 </script>
 
 <header class="navbar sticky top-0 z-50 justify-between bg-base-100">
   <nav>
     <a href="/" class="text-xl normal-case btn btn-ghost text-sj-leaf-dark">SJ Prioshop</a>
   </nav>
-  <HeaderUserInfo
-    {...{
-      user,
-      logInLabel,
-      logOutLabel,
-      pointsLabel,
-      onLogInClicked,
-      onLogOutClicked
-    }}
-  />
+
+  <div class="flex gap-4">
+    {#if $user}
+      {user.getFullName()}
+      <div>
+        <span>{formattedPoints}</span> <span>{pointsLabel}</span>
+      </div>
+      <button class="btn btn-ghost" on:click={user.signOut}>{signOutLabel} </button>
+    {:else}
+      <button class="btn btn-ghost" on:click={user.signIn}>{signInLabel} </button>
+    {/if}
+  </div>
 </header>

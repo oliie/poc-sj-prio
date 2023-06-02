@@ -1,15 +1,9 @@
 import type { User } from '$lib/custom-types';
-import type { Readable } from 'svelte/store';
-import { writable } from 'svelte/store';
+import { get, writable } from 'svelte/store';
 
-interface UserStore extends Readable<User | null> {
-  signIn: () => void;
-  signOut: () => void;
-  addPoints: (points: number) => void;
-}
-
-function createUserStore(): UserStore {
-  const { subscribe, update, set } = writable<User | null>(null);
+function createUserStore() {
+  const store = writable<User | null>(null);
+  const { subscribe, update, set } = store;
 
   async function signIn() {
     const res = await fetch('/api/auth', { method: 'POST' });
@@ -23,6 +17,17 @@ function createUserStore(): UserStore {
 
   async function signOut() {
     set(null);
+  }
+
+  function getFullName() {
+    const user = get(store);
+
+    if (!user) {
+      return;
+    }
+
+    const { firstname, lastname } = user;
+    return `${firstname} ${lastname}`;
   }
 
   function addPoints(points: number) {
@@ -39,6 +44,7 @@ function createUserStore(): UserStore {
     subscribe,
     signIn,
     signOut,
+    getFullName,
     addPoints
   };
 }
