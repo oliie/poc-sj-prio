@@ -3,6 +3,7 @@
   import Checkout from '$lib/components/ui/Checkout.svelte';
   import Dialog from '$lib/components/ui/Dialog.svelte';
   import Hero from '$lib/components/ui/Hero.svelte';
+  import LoginMessage from '$lib/components/ui/LoginMessage.svelte';
   import Offers from '$lib/components/ui/Offers.svelte';
   import type { Offer } from '$lib/custom-types.js';
 
@@ -46,6 +47,7 @@
 <Hero {...heroData} />
 
 <div class="container p-4 pb-8 mx-auto">
+  <LoginMessage />
   <Offers {offers} on:selectOffer={handleOfferSelected} />
 </div>
 
