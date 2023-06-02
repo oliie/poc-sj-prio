@@ -18,6 +18,8 @@
 
   const handleCheckout = () => {
     // TODO: Implement checkout logic
+    // 1. Remove points from user
+    // 2. Show confrimation
   };
 </script>
 
