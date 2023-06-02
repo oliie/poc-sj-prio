@@ -1,6 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
-  import CheckoutDialog from '$lib/components/ui/CheckoutDialog.svelte';
+  import Checkout from '$lib/components/ui/Checkout.svelte';
+  import Dialog from '$lib/components/ui/Dialog.svelte';
   import Hero from '$lib/components/ui/Hero.svelte';
   import Offers from '$lib/components/ui/Offers.svelte';
   import type { Offer } from '$lib/custom-types.js';
@@ -31,6 +32,8 @@
     offer = event.detail.offer;
     show = !show;
   };
+
+  const handleCloseModal = () => (show = false);
 </script>
 
 <svelte:head>
@@ -47,5 +50,7 @@
 </div>
 
 {#if offer}
-  <CheckoutDialog {offer} bind:show />
+  <Dialog bind:show>
+    <Checkout {offer} on:closeModal={handleCloseModal} />
+  </Dialog>
 {/if}
