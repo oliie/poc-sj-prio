@@ -3,6 +3,7 @@
   import { t } from '$lib/services/i18n';
   import { user } from '$lib/stores/user';
   import { createEventDispatcher } from 'svelte';
+  import CheckoutSummary from './CheckoutSummary.svelte';
 
   export let offer: Offer;
   $: ({ title, points, body } = offer);
@@ -11,6 +12,7 @@
   let amount = 1;
   let acceptedTerms = false;
   let purchaseSuccessful = false;
+  let loading = false;
 
   const dispatch = createEventDispatcher();
 
@@ -27,8 +29,12 @@
   const handleCheckout = () => {
     // TODO: Implement checkout logic
     // 1. Remove points from user
-
-    purchaseSuccessful = true;
+    loading = true;
+    // Fake timer for API call to purchase
+    setTimeout(() => {
+      purchaseSuccessful = true;
+      loading = false;
+    }, 1200);
   };
 </script>
 
@@ -42,7 +48,7 @@
     {t('close')}
   </button>
 {:else if purchaseSuccessful}
-  HTMLObjectElement
+  <CheckoutSummary {offer} {amount} on:click={handleCloseModal} />
 {:else}
   <h3 class="pb-4 text-2xl font-bold">{title}</h3>
 
@@ -78,7 +84,7 @@
 
     <div class="divider" />
 
-    <div class="text-sm text-right text-gray-400">
+    <div class="text-sm text-center text-gray-400">
       {t('confirmation_will_be_sent_to')}
       {$user?.email}
     </div>
@@ -93,11 +99,13 @@
     </button>
     <button
       class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
-      on:click={handleCheckout}
-      disabled={!acceptedTerms || tooExpensive}
+      on:click|stopPropagation={handleCheckout}
+      disabled={!acceptedTerms || tooExpensive || loading}
     >
       {#if tooExpensive}
         {t('not_enough_points_header')}
+      {:else if loading}
+        {t('handling_purchase')}
       {:else}
         {t('use')}
         {points * amount}p
