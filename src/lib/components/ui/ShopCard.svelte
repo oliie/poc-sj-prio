@@ -20,14 +20,14 @@
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <div
   on:click={handleClick}
-  class="w-full card card-compact card-bordered rounded-[8px] bg-base-100 hover:shadow-md transition-shadow cursor-pointer"
+  class="w-full card card-compact card-bordered rounded-[8px] bg-base-100 hover:shadow-md transition-shadow cursor-pointer card-focused"
 >
   <figure>
     <img src={`//wsrv.nl/?url=${imgUrl}&w=400&output=webp`} alt="" width="400" height="225" />
   </figure>
   <div class="card-body">
     <svelte:element this={headingLevel} class="card-title"
-      ><a href="shops/{slug}" on:click|stopPropagation>{title}</a></svelte:element
+      ><a href="shops/{slug}" on:click|stopPropagation class="card-link-focused">{title}</a></svelte:element
     >
     <p>{description}</p>
   </div>

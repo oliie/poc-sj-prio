@@ -37,3 +37,15 @@
     /* Modern Browsers */ url('/fonts/sjsans_bold-webfont.woff2') format('truetype'),
     /* Safari, Android, iOS */ url('/fonts/sjsans_bold-webfont.woff2#sjsans') format('svg'); /* Legacy iOS */
 }
+
+@layer components {
+  /* Apply focus style to card when link inside has focus */
+  .card-focused:has(a:focus-visible) {
+    @apply shadow-md outline outline-sj-dark-sky outline-4;
+  }
+  /* Remove default focus outline and add underline */
+  .card-link-focused:focus-visible {
+    @apply outline-none underline underline-offset-[0.2em]
+  }
+  /* ... */
+}
