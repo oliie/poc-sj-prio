@@ -6,6 +6,7 @@
 
   export let offer: Offer;
   $: ({ title, points, body } = offer);
+  $: tooExpensive = $user && $user?.points < points * amount;
 
   let amount = 1;
   let acceptedTerms = false;
@@ -81,10 +82,14 @@
     <button
       class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
       on:click={handleCheckout}
-      disabled={!acceptedTerms}
+      disabled={!acceptedTerms || tooExpensive}
     >
-      {t('use')}
-      {points * amount}p
+      {#if tooExpensive}
+        {t('not_enough_points_header')}
+      {:else}
+        {t('use')}
+        {points * amount}p
+      {/if}
     </button>
   </div>
 {/if}
