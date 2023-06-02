@@ -8,7 +8,7 @@
   export let slug: string;
   export let headingLevel: HeadingLevel = 'h3';
 
-  function handleClick(event) {
+  function handleClick() {
     const isTextSelected = window.getSelection().toString();
     if (!isTextSelected) {
       goto(`shops/${slug}`);
