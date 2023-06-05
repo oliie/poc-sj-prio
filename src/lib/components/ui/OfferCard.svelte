@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { HeadingLevel } from '$lib/custom-types';
+  import { user } from '$lib/stores/user';
   import { numberWithSpaces } from '$lib/utils/helpers.js';
 
   export let title: string;
@@ -8,7 +9,6 @@
   export let points: number;
   export let isLimited: boolean;
 
-  let userPoints = 500;
   export let headingLevel: HeadingLevel = 'h2';
   export let imgAltText = '';
 </script>
@@ -37,7 +37,7 @@
     <svelte:element this={headingLevel} class="card-title">{title}</svelte:element>
     <p>{body}</p>
     <div class="text-lg font-bold">{numberWithSpaces(points)}p</div>
-    {#if userPoints >= points}
+    {#if $user}
       <div class="justify-start card-actions">
         <button
           on:click
