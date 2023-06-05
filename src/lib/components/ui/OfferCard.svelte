@@ -43,10 +43,7 @@
       <div class="text-lg font-bold">{numberWithSpaces(points)}p</div>
       {#if $user}
         <div class="justify-start card-actions">
-          <Button
-            on:click
-            class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
-          >
+          <Button on:click>
             {t('buy')}
           </Button>
         </div>
