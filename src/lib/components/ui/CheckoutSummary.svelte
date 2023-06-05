@@ -4,6 +4,7 @@
   import { user } from '$lib/stores/user';
   import { createEventDispatcher } from 'svelte';
   import SummaryDetails from './SummaryDetails.svelte';
+  import Button from './Button.svelte';
 
   const dispatch = createEventDispatcher();
 
@@ -21,9 +22,6 @@
 
 <SummaryDetails {amount} {offer} />
 
-<button
-  class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
-  on:click={handleCloseModal}
->
+<Button on:click={handleCloseModal} fullWidth>
   {t('close')}
-</button>
+</Button>

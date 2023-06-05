@@ -78,16 +78,16 @@
       </div>
     </div>
 
-  <div class="mt-4 form-control">
-    <label class="cursor-pointer label">
-      <span class="label-text">{t('accept_terms')}</span>
-      <input
-        type="checkbox"
-        bind:checked={acceptedTerms}
-        class="checkbox checkbox-success checked:bg-sj-leaf"
-      />
-    </label>
-  </div>
+    <div class="mt-4 form-control">
+      <label class="cursor-pointer label">
+        <span class="label-text">{t('accept_terms')}</span>
+        <input
+          type="checkbox"
+          bind:checked={acceptedTerms}
+          class="checkbox checkbox-success checked:bg-sj-leaf"
+        />
+      </label>
+    </div>
 
     <div class="divider" />
 
@@ -97,10 +97,18 @@
     </div>
   </div>
 
-<div class="grid grid-rows-2 gap-4 pt-4">
-  <Button on:click={handleCheckout} disabled={!acceptedTerms}
-    >{t('use')}
-    {numberWithSpaces(points * amount)}p</Button
-  >
-  <Button on:click={handleCloseModal} variant="secondary">{t('close')}</Button>
-</div>
+  <div class="grid grid-rows-2 gap-4 pt-4">
+    <Button on:click={handleCheckout} disabled={disableCheckoutButton}>
+      {#if tooExpensive}
+        {t('not_enough_points_header')}
+      {:else if loading}
+        {t('handling_purchase')}
+      {:else}
+        {t('use')}
+        {numberWithSpaces(points * amount)}p
+      {/if}
+    </Button>
+
+    <Button on:click={handleCloseModal} variant="secondary">{t('close')}</Button>
+  </div>
+{/if}
