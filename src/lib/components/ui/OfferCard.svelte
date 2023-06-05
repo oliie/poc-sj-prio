@@ -41,7 +41,7 @@
     <p>{body}</p>
     <div class="flex items-center justify-between gap-2 flex-">
       <div class="text-lg font-bold">{numberWithSpaces(points)}p</div>
-      {#if userPoints >= points}
+      {#if $user}
         <div class="justify-start card-actions">
           <Button
             on:click
