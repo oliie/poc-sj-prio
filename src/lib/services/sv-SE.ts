@@ -14,7 +14,9 @@ const translations: { [key: string]: string } = {
   total_points_label: 'poäng',
   sign_in_label: 'Logga in',
   sign_out_label: 'Logga ut',
-  login_info_box: 'Logga in för att kunna handla/skänka i våra SJ Prio-shoppar'
+  login_info_box: 'Logga in för att kunna handla/skänka i våra SJ Prio-shoppar',
+  buy: 'Köp',
+  offer_is_limited: 'Få kvar'
 };
 
 export default translations;

@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { HeadingLevel } from '$lib/custom-types';
+  import { t } from '$lib/services/i18n';
   import { numberWithSpaces } from '$lib/utils/helpers.js';
 
   export let title: string;
@@ -28,7 +29,7 @@
       <div
         class="badge text-white text-sm bg-sj-sky-dark h-1/5 absolute border-none bottom-4 left-4"
       >
-        Få kvar
+        {t('offer_is_limited')}
       </div>
     {/if}
   </figure>
@@ -43,7 +44,7 @@
           on:click
           class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
         >
-          Köp
+          {t('buy')}
         </button>
       </div>
     {/if}
