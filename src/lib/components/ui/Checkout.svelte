@@ -48,7 +48,7 @@
     {t('close')}
   </button>
 {:else if purchaseSuccessful}
-  <CheckoutSummary {offer} {amount} on:click={handleCloseModal} />
+  <CheckoutSummary {offer} {amount} on:closeModal={handleCloseModal} />
 {:else}
   <h3 class="pb-4 text-2xl font-bold">{title}</h3>
 

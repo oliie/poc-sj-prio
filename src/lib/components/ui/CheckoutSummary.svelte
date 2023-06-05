@@ -2,6 +2,11 @@
   import type { Offer } from '$lib/custom-types';
   import { t } from '$lib/services/i18n';
   import { user } from '$lib/stores/user';
+  import { createEventDispatcher } from 'svelte';
+
+  const dispatch = createEventDispatcher();
+
+  const handleCloseModal = () => dispatch('closeModal');
 
   export let offer: Offer;
   export let amount: number;
@@ -30,7 +35,7 @@
 
 <button
   class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
-  on:click
+  on:click={handleCloseModal}
 >
   {t('close')}
 </button>
