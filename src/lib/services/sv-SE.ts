@@ -20,7 +20,10 @@ const translations: { [key: string]: string } = {
     'Du har inte tillräckligt med Prio-poäng för att köpa den här produkten.',
   handling_purchase: 'Hanterar köp...',
   summary_header: 'Tack för ditt köp!',
-  summary_confirmation_email: 'En bekräftelse skickas till'
+  summary_confirmation_email: 'En bekräftelse skickas till',
+  summary_product: 'Produkt',
+  summary_points: 'Poäng',
+  summary_amount: 'Antal'
 };
 
 export default translations;
