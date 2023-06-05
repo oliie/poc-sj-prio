@@ -10,8 +10,6 @@
   export let body: string;
   export let points: number;
   export let isLimited: boolean;
-
-  let userPoints = 500;
   export let headingLevel: HeadingLevel = 'h2';
   export let imgAltText = '';
 </script>
