@@ -97,7 +97,7 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-2 gap-4 pt-4">
+  <div class="grid grid-cols-1 gap-4 pt-4 md:grid-cols-2">
     <Button on:click={handleCloseModal} variant="secondary">{t('close')}</Button>
 
     <Button on:click={handleCheckout} disabled={disableCheckoutButton}>
