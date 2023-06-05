@@ -97,7 +97,9 @@
     </div>
   </div>
 
-  <div class="grid grid-rows-2 gap-4 pt-4">
+  <div class="grid grid-cols-2 gap-4 pt-4">
+    <Button on:click={handleCloseModal} variant="secondary">{t('close')}</Button>
+
     <Button on:click={handleCheckout} disabled={disableCheckoutButton}>
       {#if tooExpensive}
         {t('not_enough_points_header')}
@@ -108,7 +110,5 @@
         {numberWithSpaces(points * amount)}p
       {/if}
     </Button>
-
-    <Button on:click={handleCloseModal} variant="secondary">{t('close')}</Button>
   </div>
 {/if}
