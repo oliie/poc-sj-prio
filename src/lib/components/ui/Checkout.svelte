@@ -8,14 +8,15 @@
   import Button from '$lib/components/ui/Button.svelte';
 
   export let offer: Offer;
-  $: ({ title, points, body } = offer);
-  $: tooExpensive = $user && $user?.points < points * amount;
-  $: disableCheckoutButton = !acceptedTerms || tooExpensive || loading;
 
   let amount = 1;
   let acceptedTerms = false;
   let purchaseSuccessful = false;
   let loading = false;
+
+  $: ({ title, points, body } = offer);
+  $: tooExpensive = $user && $user?.points < points * amount;
+  $: disableCheckoutButton = !acceptedTerms || tooExpensive || loading;
 
   const dispatch = createEventDispatcher();
 
@@ -35,7 +36,7 @@
     loading = true;
     // Fake timer for API call to purchase
     setTimeout(() => {
-      purchaseSuccessful = true;
+      purchaseSuccessful = user.withdrawPoints(points * amount);
       loading = false;
     }, 1200);
   };
