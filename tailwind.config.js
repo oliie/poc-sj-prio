@@ -1,4 +1,5 @@
 import Color from 'color';
+import dk from 'daisyui/dist/themes.css';
 
 // const alpha = (color, val) => Color(color).alpha(val).rgb().string();
 const lighten = (color, val) => Color(color).lighten(val).rgb().string();
@@ -43,7 +44,12 @@ export default {
           hover: darken('#00AB3B', 0.1),
           'hover-dark': lighten('#009433', 0.1),
           dark: '#009433',
+          success: '#f30',
           DEFAULT: '#00AB3B'
+        },
+        'sj-meadow': {
+          dark: '#D5E3D1',
+          DEFAULT: '#E8F7E4'
         },
         'sj-grass': {
           dark: '#1BBD0F',
@@ -99,6 +105,18 @@ export default {
         }
       }
     }
+  },
+  daisyui: {
+    themes: [
+      {
+        light: {
+          // eslint-disable-next-line @typescript-eslint/no-var-requires
+          ...require('daisyui/src/colors/themes.js')['[data-theme=light]'],
+          success: '#00AB3B',
+          'success-content': '#fff'
+        }
+      }
+    ]
   },
   plugins: [require('daisyui')]
 };

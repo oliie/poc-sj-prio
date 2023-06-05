@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { HeadingLevel } from '$lib/custom-types';
+  import Button from '$lib/components/ui/Button.svelte';
 
   export let title: string;
   export let imgUrl: string;
@@ -21,12 +22,12 @@
     </div>
     <div class="justify-start card-actions">
       {#if userPoints >= points}
-        <button
+        <Button
           on:click
           class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
         >
           Köp
-        </button>
+        </Button>
       {/if}
     </div>
   </div>

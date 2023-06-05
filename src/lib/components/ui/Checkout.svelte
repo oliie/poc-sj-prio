@@ -2,6 +2,8 @@
   import type { Offer } from '$lib/custom-types';
   import { t } from '$lib/services/i18n';
   import { createEventDispatcher } from 'svelte';
+  import { numberWithSpaces } from '$lib/utils/helpers.js';
+  import Button from '$lib/components/ui/Button.svelte';
 
   export let offer: Offer;
   $: ({ title, points, body } = offer);
@@ -51,7 +53,11 @@
   <div class="mt-4 form-control">
     <label class="cursor-pointer label">
       <span class="label-text">{t('accept_terms')}</span>
-      <input type="checkbox" bind:checked={acceptedTerms} class="checkbox checkbox-success" />
+      <input
+        type="checkbox"
+        bind:checked={acceptedTerms}
+        class="checkbox checkbox-success checked:bg-sj-leaf"
+      />
     </label>
   </div>
 
@@ -60,19 +66,10 @@
   <div class="text-sm text-right text-gray-400">{t('confirmation_will_be_sent_to')} TODO</div>
 </div>
 
-<div class="grid grid-cols-2 gap-4 pt-4">
-  <button
-    class="w-full normal-case rounded-none text-sj-leaf border-sj-leaf btn btn-outline hover:bg-gray-100 hover:border-sj-leaf hover:text-sj-leaf"
-    on:click={handleCloseModal}
+<div class="grid grid-rows-2 gap-4 pt-4">
+  <Button on:click={handleCheckout} disabled={!acceptedTerms}
+    >{t('use')}
+    {numberWithSpaces(points * amount)}p</Button
   >
-    {t('close')}
-  </button>
-  <button
-    class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
-    on:click={handleCheckout}
-    disabled={!acceptedTerms}
-  >
-    {t('use')}
-    {points * amount}p
-  </button>
+  <Button on:click={handleCloseModal} variant="secondary">{t('close')}</Button>
 </div>
