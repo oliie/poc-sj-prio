@@ -20,8 +20,8 @@
 
   const dispatch = createEventDispatcher();
 
-  const increment = () => amount++;
-  const decrement = () => amount > 1 && amount--;
+  const incrementAmount = () => amount++;
+  const decrementAmount = () => amount > 1 && amount--;
 
   const handleCloseModal = () => {
     amount = 1;
@@ -32,17 +32,21 @@
 
   const handleCheckout = () => {
     // TODO: Implement checkout logic
-    // 1. Remove points from user
+    mockSuccessfulPurchase();
+  };
+
+  function mockSuccessfulPurchase() {
+    const apiTimerMs = 1200;
+
     loading = true;
-    // Fake timer for API call to purchase
     setTimeout(() => {
       purchaseSuccessful = user.withdrawPoints(points * amount);
       loading = false;
-    }, 1200);
-  };
+    }, apiTimerMs);
+  }
 </script>
 
-{#if $user && $user?.points < points}
+{#if $user && $user.points < points}
   <h3 class="my-4 text-4xl font-bold">{t('not_enough_points_header')}</h3>
   <p>{t('not_enough_points_description')}</p>
 
@@ -65,14 +69,14 @@
       <div class="self-end">
         <button
           class="border-none btn btn-sm btn-circle bg-sj-leaf hover:bg-sj-leaf-hover"
-          on:click={decrement}
+          on:click={decrementAmount}
         >
           -
         </button>
         <div class="inline-block w-8 text-center">{amount}</div>
         <button
           class="border-none btn btn-sm btn-circle bg-sj-leaf hover:bg-sj-leaf-hover"
-          on:click={increment}
+          on:click={incrementAmount}
         >
           +
         </button>

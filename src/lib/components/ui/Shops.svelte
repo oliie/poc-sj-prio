@@ -6,9 +6,9 @@
 </script>
 
 <ul class="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
-  {#each shops as { description, imgUrl, slug, title, buttonText }}
+  {#each shops as { description, imgUrl, slug, title }}
     <li>
-      <ShopCard {title} {description} {imgUrl} {slug} {buttonText} />
+      <ShopCard {title} {description} {imgUrl} {slug} />
     </li>
   {/each}
 </ul>

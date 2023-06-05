@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { checkClickOutsideElement } from '$lib/utils/helpers';
+
   export let show = false;
 
   let modal: HTMLDialogElement;
@@ -8,12 +10,7 @@
   }
 
   const handleOutsideClick = (e: MouseEvent) => {
-    const dialogDimensions = modal.getBoundingClientRect();
-    const isOutsideDialog =
-      e.clientX < dialogDimensions.left ||
-      e.clientX > dialogDimensions.right ||
-      e.clientY < dialogDimensions.top ||
-      e.clientY > dialogDimensions.bottom;
+    const isOutsideDialog = checkClickOutsideElement({ x: e.clientX, y: e.clientY }, modal);
 
     if (isOutsideDialog) {
       show = false;
