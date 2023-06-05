@@ -8,6 +8,7 @@
   export let offer: Offer;
   $: ({ title, points, body } = offer);
   $: tooExpensive = $user && $user?.points < points * amount;
+  $: disableCheckoutButton = !acceptedTerms || tooExpensive || loading;
 
   let amount = 1;
   let acceptedTerms = false;
@@ -100,7 +101,7 @@
     <button
       class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
       on:click|stopPropagation={handleCheckout}
-      disabled={!acceptedTerms || tooExpensive || loading}
+      disabled={disableCheckoutButton}
     >
       {#if tooExpensive}
         {t('not_enough_points_header')}
