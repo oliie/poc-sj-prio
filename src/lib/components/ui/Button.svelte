@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let link: string;
+  export let link = '';
   export let variant: 'primary' | 'secondary' = 'primary';
   export let fullWidth = false;
   export let disabled = false;
