@@ -20,8 +20,13 @@
   .card-focused:has(a:focus-visible) {
     @apply shadow-md outline outline-sj-dark-sky outline-4;
   }
-  .card-link-focused:focus-visible {
-    @apply outline-none underline underline-offset-[0.2em];
+  /* Only remove default focus is :has is supported. Note: For some reason Svelte is not letting me use @apply inside the @supports query. */
+  @supports selector(:has(*)) {
+    .card-link-focused:focus-visible {
+      text-decoration: underline;
+      text-underline-offset: 0.2em;
+      outline: 0;
+    }
   }
 </style>
 
