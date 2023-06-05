@@ -44,12 +44,9 @@
 {#if $user && $user?.points < points}
   <h3 class="my-4 text-4xl font-bold">{t('not_enough_points_header')}</h3>
   <p>{t('not_enough_points_description')}</p>
-  <button
-    class="w-full mt-6 normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover"
-    on:click={handleCloseModal}
-  >
+  <Button on:click={handleCloseModal}>
     {t('close')}
-  </button>
+  </Button>
 {:else if purchaseSuccessful}
   <CheckoutSummary {offer} {amount} on:closeModal={handleCloseModal} />
 {:else}
