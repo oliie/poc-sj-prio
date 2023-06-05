@@ -23,7 +23,9 @@ const translations: { [key: string]: string } = {
   summary_confirmation_email: 'En bekräftelse skickas till',
   summary_product: 'Produkt',
   summary_points: 'Poäng',
-  summary_amount: 'Antal'
+  summary_amount: 'Antal',
+  limited_amount: 'Få kvar',
+  buy: 'Köp'
 };
 
 export default translations;

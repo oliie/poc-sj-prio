@@ -1,7 +1,9 @@
 <script lang="ts">
   import type { HeadingLevel } from '$lib/custom-types';
   import { user } from '$lib/stores/user';
+  import Button from '$lib/components/ui/Button.svelte';
   import { numberWithSpaces } from '$lib/utils/helpers.js';
+  import { t } from '$lib/services/i18n';
 
   export let title: string;
   export let imgUrl: string;
@@ -29,7 +31,7 @@
       <div
         class="absolute text-sm text-white border-none badge bg-sj-sky-dark h-1/5 bottom-4 left-4"
       >
-        Få kvar
+        {t('limited_amount')}
       </div>
     {/if}
   </figure>
@@ -37,16 +39,18 @@
   <div class="card-body">
     <svelte:element this={headingLevel} class="card-title">{title}</svelte:element>
     <p>{body}</p>
-    <div class="text-lg font-bold">{numberWithSpaces(points)}p</div>
-    {#if userPoints >= points}
-      <div class="justify-start card-actions">
-        <button
-          on:click
-          class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
-        >
-          Köp
-        </button>
-      </div>
-    {/if}
+    <div class="flex items-center justify-between gap-2 flex-">
+      <div class="text-lg font-bold">{numberWithSpaces(points)}p</div>
+      {#if userPoints >= points}
+        <div class="justify-start card-actions">
+          <Button
+            on:click
+            class="w-full normal-case border-none rounded-none btn btn-primary bg-sj-leaf-dark hover:bg-sj-leaf-hover-dark"
+          >
+            {t('buy')}
+          </Button>
+        </div>
+      {/if}
+    </div>
   </div>
 </div>
