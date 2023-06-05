@@ -16,6 +16,15 @@
   }
 </script>
 
+<style>
+  .card-focused:has(a:focus-visible) {
+    @apply shadow-md outline outline-sj-dark-sky outline-4;
+  }
+  .card-link-focused:focus-visible {
+    @apply outline-none underline underline-offset-[0.2em];
+  }
+</style>
+
 <!-- Added this ignore since screen readers can safely ignore the onClick behavior in this case and go directly to the actual <a>-tag -->
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <div
