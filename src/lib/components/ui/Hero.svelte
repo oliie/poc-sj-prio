@@ -5,7 +5,7 @@
   export let imageAltText: string;
 </script>
 
-<div class="hero h-[61.8vmax] max-h-[min(70vh,1280px)] bg-sj-dark-sky overflow-y-hidden">
+<div class="hero md:h-[61.8vh] h-[40vh] bg-sj-dark-sky overflow-y-hidden">
   {#if imageSrc}
     <div class="w-full h-full overflow-hidden">
       <img
