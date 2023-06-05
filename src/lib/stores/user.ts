@@ -30,14 +30,25 @@ function createUserStore() {
     return `${firstname} ${lastname}`;
   }
 
-  function addPoints(points: number) {
+  function withdrawPoints(amount: number): boolean {
+    const user = get(store);
+
+    if (!user) {
+      return false;
+    }
+
+    if (amount > user.points) {
+      return false;
+    }
+
     update((user) => {
       if (!user) {
         return null;
       }
-
-      return { ...user, points: user.points + points };
+      return { ...user, points: Math.max(user.points - amount, 0) };
     });
+
+    return true;
   }
 
   return {
@@ -45,7 +56,7 @@ function createUserStore() {
     signIn,
     signOut,
     getFullName,
-    addPoints
+    withdrawPoints
   };
 }
 
