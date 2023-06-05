@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { HeadingLevel } from '$lib/custom-types';
+  import { user } from '$lib/stores/user';
   import Button from '$lib/components/ui/Button.svelte';
   import { numberWithSpaces } from '$lib/utils/helpers.js';
   import { t } from '$lib/services/i18n';
@@ -28,7 +29,7 @@
     />
     {#if isLimited}
       <div
-        class="badge text-white text-sm bg-sj-sky-dark h-1/5 absolute border-none bottom-4 left-4"
+        class="absolute text-sm text-white border-none badge bg-sj-sky-dark h-1/5 bottom-4 left-4"
       >
         {t('limited_amount')}
       </div>
@@ -38,7 +39,7 @@
   <div class="card-body">
     <svelte:element this={headingLevel} class="card-title">{title}</svelte:element>
     <p>{body}</p>
-    <div class="flex gap-2 flex- justify-between items-center">
+    <div class="flex items-center justify-between gap-2 flex-">
       <div class="text-lg font-bold">{numberWithSpaces(points)}p</div>
       {#if userPoints >= points}
         <div class="justify-start card-actions">
